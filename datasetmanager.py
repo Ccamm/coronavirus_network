@@ -1,15 +1,34 @@
-import requests, json, math, os, datetime, io, time
+import requests, json, math, os, datetime, io, time, shutil, threading, queue
 import pandas as pd
 
 class CovidManager:
-    def __init__(self, dataset_folder='dataset/', dataset_urls_csv='dataset/dataset_urls.csv', update_time=86400):
+    def __init__(self, dataset_folder='dataset/', dataset_urls_csv='dataset/dataset_urls.csv', update=True, update_time=86400, backup=True, backup_folder='dataset/backup_covid/'):
         self.COLUMN_NAMES = ("dataset_label", "url")
         self.dataset_folder = dataset_folder
         self.dataset_urls = dataset_urls_csv
         self.update_time = update_time
+        self.update = update
+        self.backup = backup
+        self.backup_folder = backup_folder
 
     def getFileName(self, data_label):
         return self.dataset_folder + "covid_" + data_label + ".csv"
+
+    def backupDataset(self, df_urls):
+        if self.backup:
+            if not os.path.exists(self.backup_folder):
+                os.mkdir(self.backup_folder)
+
+            current_backup = self.backup_folder + datetime.datetime.now().strftime("%d%m%Y_%H%M%S") + "/"
+            os.mkdir(current_backup)
+            get_backup_filename = lambda data_label : current_backup + "covid_" + data_label + ".csv"
+            for index, row in df_urls.iterrows():
+                data_label = row[self.COLUMN_NAMES[0]]
+                filename = self.getFileName(data_label)
+                if os.path.isfile(filename):
+                    shutil.copyfile(filename, get_backup_filename(data_label))
+
+        self.clearDatasets()
 
     def downloadDataset(self):
         try:
@@ -18,6 +37,7 @@ class CovidManager:
             print("There is no csv file at {} to specify where to download the dataset from".format(self.dataset_urls))
             return {}
 
+        self.backupDataset(df_urls)
         datasets = {}
 
         for index, row in df_urls.iterrows():
@@ -70,7 +90,6 @@ class CovidManager:
             data_label = row[self.COLUMN_NAMES[0]]
             filename = self.getFileName(data_label)
             if not os.path.isfile(filename):
-                self.clearDatasets()
                 return True
             modification_time = os.path.getmtime(filename)
             mod_time = datetime.datetime.fromtimestamp(modification_time)
@@ -79,16 +98,76 @@ class CovidManager:
             time_diff = time.mktime(current_time.timetuple()) - time.mktime(mod_time.timetuple())
 
             if time_diff > self.update_time:
-                self.clearDatasets()
                 return True
 
         return False
 
+    def loadLatestBackup(self):
+        if not os.path.exists(self.backup):
+            return None
+
+        try:
+            df_urls = pd.read_csv(self.dataset_urls, header=None, names=self.COLUMN_NAMES)
+        except:
+            print("There is no csv file at {} to specify the names of the files".format(self.dataset_urls))
+            return None
+
+        backup_list = [backup[0] for backup in os.walk(self.backup_folder)]
+
+        try:
+            latest_backup = (backup_list[1], os.path.getmtime(backup_list[1]))
+        except:
+            print("There are no backups...")
+            return None
+
+        for ii in range(2, len(backup_list)):
+            folder_name =  backup_list[ii]
+            mod_time = os.path.getmtime(folder_name)
+            if mod_time > latest_backup[1]:
+                latest_backup = (folder_name, mod_time)
+
+        self.clearDatasets()
+        get_backup_data = lambda data_label : latest_backup[0] + "/" + "covid_" + data_label + ".csv"
+        for index, row in df_urls.iterrows():
+            data_label = row[self.COLUMN_NAMES[0]]
+            backup_filename = get_backup_data(data_label)
+            filename = self.getFileName(data_label)
+            shutil.copyfile(backup_filename, filename)
+
+        return self.loadDatasets()
+
+    def datasetsExist(self):
+        try:
+            df_urls = pd.read_csv(self.dataset_urls, header=None, names=self.COLUMN_NAMES)
+        except:
+            print("There is no csv file at {} to specify the names of the files".format(self.dataset_urls))
+            return False
+
+        for index, row in df_urls.iterrows():
+            data_label = row[self.COLUMN_NAMES[0]]
+            filename = self.getFileName(data_label)
+            if not os.path.isfile(filename):
+                return False
+        return True
+
+
     def getDataSets(self):
-        if self.needsUpdating():
-            return self.downloadDataset()
+        if self.update:
+            if self.needsUpdating():
+                try:
+                    return self.downloadDataset()
+                except:
+                    self.loadLatestBackup()
+            else:
+                return self.loadDatasets()
         else:
-            return self.loadDatasets()
+            if self.datasetsExist():
+                return self.loadDatasets()
+            else:
+                try:
+                    return self.downloadDataset()
+                except:
+                    self.loadLatestBackup()
 
 class AirportToLocation:
 
@@ -165,3 +244,72 @@ class AirportToLocation:
             return pd.read_csv(self.airport_loc_fn)
         else:
             return self.generateNewAirportToLocationDataset(dataframe)
+
+class RouteManager:
+
+    def __init__(self, api_key="e32a49-08933a", airport_dataset = 'dataset/airport_to_location.csv', routes_dataset='dataset/routes.csv', num_of_threads=50):
+        try:
+            self.airport_df = pd.read_csv(airport_dataset)
+        except:
+            print("Error trying to read in the airport dataset at {}".format(airport_dataset))
+            return
+        self.api_key = api_key
+        self.api_call = "http://aviation-edge.com/v2/public/routes?key={api_key}&departureIata={depart_codeIata}&limit=30000"
+        self.routes_loc_fn = routes_dataset
+
+    def callAPI(self, iata_airport):
+        current_api_call = self.api_call.format(api_key = self.api_key, depart_codeIata=iata_airport)
+        response = requests.get(url=current_api_call)
+        json_data = response.json()
+        if type(json_data) == type({}):
+            return None
+        return json_data
+
+    def getStateCountryfromIata(self, iata_code):
+        airport = self.airport_df.loc[self.airport_df['codeIataAirport'] == iata_code]
+        for _index, row in airport.iterrows():
+            return row['Province/State'], row['Country/Region']
+        return None, None
+
+    def apiCallForRoutes(self):
+        """
+        WARNING! WE ONLY HAVE A LIMITED NUMBER OF CALLS SO AVOID CONSTANTLY CALLING THIS!
+        """
+        airport_route_dict = {
+            'Departure Province/State': [],
+            'Departure Country/Region': [],
+            'Arrival Province/State'  : [],
+            'Arrival Country/Region'  : [],
+        }
+
+        i = 0
+        for _index, row in self.airport_df.iterrows():
+            depart_iata_airport = row['codeIataAirport']
+            routes = self.callAPI(depart_iata_airport)
+            # Error handling json errors
+            if routes == None: continue
+            for route in routes:
+
+                arrival_iata_airport = route['arrivalIata']
+                state, country = self.getStateCountryfromIata(arrival_iata_airport)
+
+                # If we do not have a record of that iata code
+                if state == None and country == None: continue
+
+                airport_route_dict['Departure Province/State'].append(row['Province/State'])
+                airport_route_dict['Departure Country/Region'].append(row['Country/Region'])
+                airport_route_dict['Arrival Province/State'].append(state)
+                airport_route_dict['Arrival Country/Region'].append(country)
+
+            if i > 5: break
+            i += 1
+
+        route_df = pd.DataFrame(airport_route_dict, columns=['Departure Province/State',
+                                                             'Departure Country/Region',
+                                                             'Arrival Province/State',
+                                                             'Arrival Country/Region'])
+
+        try:
+            route_df.to_csv(self.routes_loc_fn, index=False, header=True)
+        except:
+            print("Error occurred trying to save Routes to Location Dataset to {}".format(self.routes_loc_fn))
