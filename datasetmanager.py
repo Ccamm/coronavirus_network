@@ -284,10 +284,10 @@ class AirportToLocation:
 
             possible_locations_df = self.covid_df.loc[self.covid_df['Country/Region'] == country_name]
 
-            # # If the country has multiple provinces and state_name isn't NaN then it is one of the weird edge cases.
-            # if possible_locations_df.shape[0] > 1 and type(state_name) == str:
-            #     del possible_locations_df
-            #     possible_locations_df = self.covid_df.loc[self.covid_df['Province/State'] == state_name]
+            # If the country has multiple provinces and state_name isn't NaN then it is one of the weird edge cases.
+            if possible_locations_df.shape[0] > 1 and type(state_name) == str:
+                del possible_locations_df
+                possible_locations_df = self.covid_df.loc[self.covid_df['Province/State'] == state_name]
 
             distances_arr = haversine_formula(airport_json['latitudeAirport'], airport_json['longitudeAirport'], possible_locations_df['Lat'].to_numpy(), possible_locations_df['Long'].to_numpy())
             possible_locations_df['distance'] = distances_arr
