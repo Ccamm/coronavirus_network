@@ -10,11 +10,14 @@ NO_API_CALLS = False
 
 # Used instead of requesting from API to see code functions normally if NO_API_CALLS == True
 TEST_JSON = [{'arrivalIata': 'AAA'}]
-TEST_RESET_CONN = 0.001
+TEST_RESET_CONN = 0.0
+DEBUG_PRINT = False
 
 airport_route_dict = {
+    'Departure codeIataAirport':[],
     'Departure Province/State': [],
     'Departure Country/Region': [],
+    'Arrival codeIataAirport' : [],
     'Arrival Province/State'  : [],
     'Arrival Country/Region'  : [],
 }
@@ -48,6 +51,9 @@ def parse_args():
                         type=bool,
                         help="tests the program and does not make any API requests, only prints what the API call would be",
                         default=False)
+    parser.add_argument("-d", "--debug",
+                        help="where to save the debug files specifying which iata codes have been sent to API. Set to None if you don't want to",
+                        default=False)
 
     return parser.parse_args()
 
@@ -62,6 +68,10 @@ def get_state_country_from_iata(iata_code, airport_df):
 
 def call_api(iata_airport):
     current_api_call = API_CALL.format(api_key = API_KEY, depart_codeIata=iata_airport)
+
+    if DEBUG_PRINT:
+        print(iata_airport)
+
     if NO_API_CALLS:
         if random.random() < TEST_RESET_CONN:
             print("Test reset has been triggered for {}".format(iata_airport))
@@ -95,13 +105,13 @@ def worker_api_call():
             depart_call_q.task_done()
             continue
 
-        push_to_dict_q.put((depart_state, depart_country, routes))
+        push_to_dict_q.put((depart_iata_airport, depart_state, depart_country, routes))
 
         depart_call_q.task_done()
 
 def worker_process():
     while True:
-        depart_state, depart_country, routes = push_to_dict_q.get()
+        depart_iata_airport, depart_state, depart_country, routes = push_to_dict_q.get()
         if depart_country == None: break
 
         for route in routes:
@@ -111,8 +121,10 @@ def worker_process():
             # If we do not have a record of that iata code ignore it
             if arrival_state == None and arrival_country == None: continue
 
+            airport_route_dict['Departure codeIataAirport'].append(depart_iata_airport)
             airport_route_dict['Departure Province/State'].append(depart_state)
             airport_route_dict['Departure Country/Region'].append(depart_country)
+            airport_route_dict['Arrival codeIataAirport'].append(arrival_iata_airport)
             airport_route_dict['Arrival Province/State'].append(arrival_state)
             airport_route_dict['Arrival Country/Region'].append(arrival_country)
 
@@ -158,12 +170,14 @@ def main():
 
     push_to_dict_q.join()
 
-    push_to_dict_q.put((None, None, None))
+    push_to_dict_q.put((None, None, None, None))
     processing_thread.join()
     print("Finished processing data, now saving to file.")
 
-    route_df = pd.DataFrame(airport_route_dict, columns=['Departure Province/State',
+    route_df = pd.DataFrame(airport_route_dict, columns=['Departure codeIataAirport',
+                                                         'Departure Province/State',
                                                          'Departure Country/Region',
+                                                         'Arrival codeIataAirport',
                                                          'Arrival Province/State',
                                                          'Arrival Country/Region'])
 
@@ -184,6 +198,7 @@ if __name__ == "__main__":
     API_CALL = args.api_call
     NUM_OF_THREADS = args.thread_num
     NO_API_CALLS = args.no_api_calls
+    DEBUG_PRINT = args.debug
     AIRPORT_DF = pd.read_csv(AIRPORT_DATASET)
 
     main()
