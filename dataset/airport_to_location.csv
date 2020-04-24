@@ -152,7 +152,7 @@ AHF,Furnas,Nebraska,US,40.3,-99.9
 AHH,Polk,Wisconsin,US,45.3,-92.35
 AHI,,,Indonesia,-3.333333,128.91667
 AHL,,,Guyana,2.483333,-59.316666
-AHM,Out of NH,New Hampshire,US,0.0,0.0
+AHM,,Virgin Islands,US,0.0,0.0
 AHN,Clarke,Georgia,US,33.95195,-83.32472
 AHO,,,Italy,40.630405,8.295891
 AHS,,,Honduras,15.441667,-84.425
@@ -1497,7 +1497,7 @@ CSL,San Luis Obispo,California,US,35.236668,-120.63917
 CSM,Lincoln,Oklahoma,US,35.539165,-96.933334
 CSN,Carson City,Nevada,US,39.191666,-119.73472
 CSO,,,Germany,51.85,11.416667
-CSP,Out of NH,New Hampshire,US,0.0,0.0
+CSP,,Virgin Islands,US,0.0,0.0
 CSQ,Union,Iowa,US,41.066666,-94.36667
 CSR,,,Colombia,5.833333,-68.13333
 CSS,,,Brazil,-18.983334,-51.983334
@@ -1992,7 +1992,7 @@ EFD,Galveston,Texas,US,29.6,-95.15
 EFG,,,Papua New Guinea,-9.15,147.66667
 EFK,Orleans,Vermont,US,44.889442,-72.23
 EFL,,,Greece,38.118057,20.505556
-EFO,Out of NH,New Hampshire,US,0.0,0.0
+EFO,,Virgin Islands,US,0.0,0.0
 EFW,Greene,Iowa,US,42.016666,-94.38333
 EGA,,,Papua New Guinea,-6.916667,146.1
 EGC,,,France,44.85,0.483333
@@ -2118,7 +2118,7 @@ ERI,Erie,Pennsylvania,US,42.08314,-80.18203
 ERL,,Inner Mongolia,China,43.426674,112.09845
 ERM,,,Brazil,-27.641666,-52.275555
 ERN,,,Brazil,-6.583333,-69.88333
-ERO,Out of IA,Iowa,US,-22.616667,17.083332
+ERO,,Virgin Islands,US,-22.616667,17.083332
 ERQ,,Northern Territory,Australia,-20.976667,141.0086
 ERR,Coos,New Hampshire,US,44.783333,-71.13333
 ERT,,,Mongolia,49.066666,104.15
@@ -2564,7 +2564,7 @@ GKN,Valdez-Cordova,Alaska,US,62.155277,-145.45222
 GKO,,,Gabon,-0.083333,11.466667
 GKT,Sevier,Tennessee,US,35.85139,-83.51861
 GLA,,,United Kingdom,55.864212,-4.431782
-GLB,Unassigned,Missouri,US,5.95,-10.033333
+GLB,,Virgin Islands,US,5.95,-10.033333
 GLC,,,Ethiopia,6.966667,46.416668
 GLD,Sherman,Kansas,US,39.370277,-101.69945
 GLE,Cooke,Texas,US,33.63333,-97.13333
@@ -3528,7 +3528,7 @@ JRB,Hudson,New Jersey,US,40.704166,-74.00833
 JRC,Olmsted,Minnesota,US,44.016666,-92.46667
 JRD,Orange,California,US,33.983334,-117.36667
 JRE,New York,New York,US,40.754166,-73.97083
-JRF,Out of NH,New Hampshire,US,0.0,0.0
+JRF,,Virgin Islands,US,0.0,0.0
 JRH,,,India,26.734484,94.1849
 JRK,,Greenland,Denmark,61.166668,-48.416668
 JRN,,,Brazil,-10.305556,-58.488888
@@ -5201,7 +5201,7 @@ NCI,,,Colombia,8.483333,-76.75
 NCJ,,,Argentina,-30.94404,-61.56148
 NCL,,,United Kingdom,55.037064,-1.710629
 NCN,Anchorage,Alaska,US,60.07831,-147.99773
-NCO,Dukes and Nantucket,Massachusetts,US,41.0,-71.0
+NCO,Dukes,Massachusetts,US,41.0,-71.0
 NCP,,,Philippines,16.0,121.0
 NCQ,Cobb,Georgia,US,33.916668,-84.51667
 NCR,,,Nicaragua,11.25,-84.833336
@@ -5413,7 +5413,7 @@ NTD,Ventura,California,US,34.15,-119.2
 NTE,,,France,47.157623,-1.601402
 NTG,,Shanghai,China,32.07292,120.9756
 NTI,,,Indonesia,-2.333333,133.25
-NTJ,Central Utah,Utah,US,39.266666,-111.63333
+NTJ,Sanpete,Utah,US,39.266666,-111.63333
 NTL,,New South Wales,Australia,-32.804592,151.84006
 NTM,,,Brazil,-9.183333,-48.5
 NTN,,Northern Territory,Australia,-17.685398,141.07307
@@ -6315,9 +6315,9 @@ QJV,,,Denmark,57.72093,10.58394
 QJW,,,Denmark,56.28581,9.43528
 QJY,,,Poland,0.0,0.0
 QJZ,,,France,47.218371,-1.553621
-QKB,Unassigned,South Dakota,US,-28.8333,22.6167
+QKB,,Virgin Islands,US,-28.8333,22.6167
 QKL,,,Germany,50.9,7.183
-QKS,Out of NH,New Hampshire,US,0.0,0.0
+QKS,,Virgin Islands,US,0.0,0.0
 QKU,,,Germany,50.9406645,6.9599115
 QLE,,Australian Capital Territory,Australia,-34.55105,146.40483
 QLJ,,,Switzerland,0.0,0.0
@@ -6379,7 +6379,7 @@ QWO,,,Denmark,56.36009,8.61607
 QWP,Gilpin,Colorado,US,39.9,-105.767
 QWQ,,,Denmark,56.49122,8.58376
 QWU,,,Germany,0.0,0.0
-QWY,Out of NH,New Hampshire,US,0.0,0.0
+QWY,,Virgin Islands,US,0.0,0.0
 QWZ,,,Netherlands,51.5075,5.39028
 QXF,,,Denmark,57.13166,9.95942
 QXG,,,France,47.478419,-0.563166
@@ -7694,7 +7694,7 @@ TRL,Kaufman,Texas,US,32.735832,-96.275
 TRM,San Diego,California,US,33.630554,-116.93611
 TRN,,,Italy,45.191456,7.643049
 TRO,,New South Wales,Australia,-31.890272,152.50896
-TRP,Out of NH,New Hampshire,US,0.0,0.0
+TRP,,Virgin Islands,US,0.0,0.0
 TRQ,,,Brazil,-8.1,-70.75
 TRR,,,Sri Lanka,8.536944,81.183334
 TRS,,,Italy,45.82078,13.485678
@@ -8414,7 +8414,7 @@ WWI,,Western Australia,Australia,-21.633333,121.23333
 WWK,,,Papua New Guinea,-3.580034,143.66916
 WWP,Petersburg,Alaska,US,56.666668,-133.83333
 WWR,Woodward,Oklahoma,US,36.43611,-99.52639
-WWS,Out of NH,New Hampshire,US,0.0,0.0
+WWS,,Virgin Islands,US,0.0,0.0
 WWT,Kusilvak,Alaska,US,60.92278,-164.6486
 WWY,,Australian Capital Territory,Australia,-33.933334,147.25
 WXJ,,Xinjiang,China,0.0,0.0
@@ -9400,7 +9400,7 @@ ZBL,,Queensland,Australia,-24.4,150.51666
 ZBM,,New Brunswick,Canada,45.316666,-72.833336
 ZBN,,,Italy,46.4967153,11.3580048
 ZBO,,Queensland,Australia,-20.016666,148.21666
-ZBP,Out of NH,New Hampshire,US,0.0,0.0
+ZBP,,Virgin Islands,US,0.0,0.0
 ZBQ,,,Denmark,55.403756,10.40237
 ZBR,,,Iran,25.436478,60.379562
 ZBS,,Northern Mariana Islands,US,38.274376,114.69443
@@ -9468,7 +9468,7 @@ ZFQ,,,France,44.837789,-0.57918
 ZFR,,,Germany,52.34714,14.55062
 ZFT,Broward,Florida,US,26.1223084,-80.1433786
 ZFU,,,Brazil,-23.3964516,-46.3214444
-ZFV,Unassigned,Wisconsin,US,-1.0,-1.0
+ZFV,,Virgin Islands,US,-1.0,-1.0
 ZFW,,Alberta,Canada,56.066666,-118.38333
 ZFX,,,Poland,53.4285438,14.5528116
 ZFY,,,Poland,50.2648919,19.0237815
@@ -9606,7 +9606,7 @@ ZMA,,Isle of Man,United Kingdom,53.13333,-1.2
 ZMB,,,Germany,53.553813,9.991586
 ZMC,,,Poland,48.13333,114.9
 ZMD,,,Brazil,-9.083333,-68.75
-ZME,Out of NH,New Hampshire,US,0.0,0.0
+ZME,,Virgin Islands,US,0.0,0.0
 ZMF,,,Italy,40.8400969,14.2516357
 ZMH,,British Columbia,Canada,51.745556,-121.339165
 ZMI,,,Italy,40.8400969,14.2516357
@@ -9660,21 +9660,21 @@ ZQU,,,Germany,52.2641478,10.5263803
 ZQV,,,Germany,49.63278,8.35916
 ZQY,,,Germany,0.0,0.0
 ZQZ,,Beijing,China,40.7392,114.931
-ZRA,Out of NH,New Hampshire,US,0.0,0.0
+ZRA,,Virgin Islands,US,0.0,0.0
 ZRB,,,Germany,0.0,0.0
 ZRC,,,Spain,0.0,0.0
 ZRD,Richmond City,Virginia,US,37.542979,-77.469092
-ZRF,Out of WV,West Virginia,US,-32.85,24.1667
+ZRF,,Virgin Islands,US,-32.85,24.1667
 ZRG,,,Slovakia,48.17,17.21
 ZRH,,,Switzerland,47.450603,8.561746
 ZRI,,,Indonesia,-1.883333,136.23334
 ZRJ,,Ontario,Canada,52.95,-91.316666
-ZRK,Out of WV,West Virginia,US,-32.85,24.1667
+ZRK,,Virgin Islands,US,-32.85,24.1667
 ZRL,Lancaster,Pennsylvania,US,40.0378755,-76.3055144
 ZRM,,,Indonesia,-1.85,138.75
 ZRN,,,Switzerland,46.38318,6.23955
 ZRO,,,Italy,44.69825,10.63125
-ZRP,Out of NH,New Hampshire,US,0.0,0.0
+ZRP,,Virgin Islands,US,0.0,0.0
 ZRR,,,Italy,0.0,0.0
 ZRS,,,Austria,0.0,0.0
 ZRT,Hartford,Connecticut,US,41.7637111,-72.6850932
@@ -9695,7 +9695,7 @@ ZSI,,,Germany,0.0,0.0
 ZSJ,,Manitoba,Canada,53.033333,-93.23333
 ZSK,,,Germany,53.50627,13.98997
 ZSL,,,Ireland,54.2706069,-8.4715279
-ZSM,Out of NH,New Hampshire,US,0.0,0.0
+ZSM,,Virgin Islands,US,0.0,0.0
 ZSN,,,Germany,52.6069,11.85867
 ZSO,,,Germany,31.85,117.28333
 ZSP,,New Brunswick,Canada,47.916668,-69.25
@@ -9707,13 +9707,13 @@ ZSU,,,Germany,0.0,0.0
 ZSV,St. Louis City,Missouri,US,38.6270025,-90.1994042
 ZSW,,British Columbia,Canada,54.333332,-130.28334
 ZSX,,,Germany,54.3630771,12.7249198
-ZSY,Out of NH,New Hampshire,US,0.0,0.0
+ZSY,,Virgin Islands,US,0.0,0.0
 ZTA,,French Polynesia,France,-20.816668,-138.5
 ZTB,,Newfoundland and Labrador,Canada,50.716667,-59.333332
 ZTC,,,Italy,45.0705621,7.6866186
 ZTD,Schenectady,New York,US,42.8142432,-73.9395687
 ZTE,Monroe,New York,US,43.161,-77.611
-ZTF,Out of NH,New Hampshire,US,0.0,0.0
+ZTF,,Virgin Islands,US,0.0,0.0
 ZTG,,,Denmark,57.028811,9.917771
 ZTH,,,Greece,37.755833,20.888332
 ZTI,,Guangdong,China,22.81843,113.66953
@@ -9727,14 +9727,14 @@ ZTR,,,Ukraine,50.25,28.65
 ZTS,,British Columbia,Canada,49.933334,-126.666664
 ZTT,,,Germany,51.7607292,14.3274885
 ZTU,,,Azerbaijan,41.56166,46.664787
-ZTV,Out of NH,New Hampshire,US,0.0,0.0
+ZTV,,Virgin Islands,US,0.0,0.0
 ZTW,,Hong Kong,China,0.0,0.0
 ZTY,Suffolk,Massachusetts,US,42.3584308,-71.0597732
 ZTZ,,,Germany,0.0,0.0
 ZUA,,Northern Mariana Islands,US,32.103817,80.054276
 ZUC,,Ontario,Canada,49.5,-91.833336
 ZUD,,,Chile,-42.0,-73.833336
-ZUG,Out of NH,New Hampshire,US,0.0,0.0
+ZUG,,Virgin Islands,US,0.0,0.0
 ZUH,,Macau,China,22.011787,113.3706
 ZUI,,Macau,China,22.270715,113.576726
 ZUK,,Northern Mariana Islands,US,30.1575,101.73472
@@ -9767,7 +9767,7 @@ ZWR,,,Malaysia,5.976474,116.115777
 ZWS,,,Germany,39.534973,76.01107
 ZWT,,,Germany,0.0,0.0
 ZWU,District of Columbia,District of Columbia,US,38.8951118,-77.0363658
-ZWV,Out of NH,New Hampshire,US,0.0,0.0
+ZWV,,Virgin Islands,US,0.0,0.0
 ZWW,,Northern Mariana Islands,US,43.90126,87.47515
 ZXA,,,United Kingdom,57.1474915,-2.095397
 ZXE,,,United Kingdom,55.9501755,-3.1875359

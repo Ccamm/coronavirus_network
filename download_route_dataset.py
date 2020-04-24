@@ -141,6 +141,7 @@ def main():
         print("{} is not enough threads to download the dataset".format(NUM_OF_THREADS))
         return
     threads = []
+    print("Using the Aviation Edge API to create dataset for airplane routes!")
 
     for t_num in range(NUM_OF_THREADS - 1):
         thread = threading.Thread(target=worker_api_call, daemon=True)

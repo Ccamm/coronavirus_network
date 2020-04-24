@@ -59,6 +59,11 @@ class CovidManager:
                                                   'Country_Region' : 'Country/Region',
                                                   'Admin2' : 'County',
                                                   'Long_' : 'Long'})
+                # Get rid of useless rows that are in the US dataset
+                # Will result in US showing less numbers than global dataset, but we need locations of where these cases are.
+                if 'us' in data_label:
+                    data_df = data_df.loc[data_df['Lat'] != 0.0]
+                    data_df = data_df.loc[data_df['Lat'].notnull()]
             datasets[data_label] = data_df
 
             data_df.to_csv(self.getFileName(data_label), index=False, header=True)
