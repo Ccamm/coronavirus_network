@@ -1,6 +1,8 @@
 import requests, json, threading, queue, argparse, sys, random
 import pandas as pd
 
+# SECURITY RISK IF WE PUBLICALLY POST REPO!
+# NEED TO CLEAR GITHUB COMMITS TOO SINCE IT WILL BE SAVED THERE AS WELL
 API_KEY = "e32a49-08933a"
 AIRPORT_DATASET = "dataset/airport_to_location.csv"
 ROUTES_DATASET = "dataset/airport_routes.csv"
@@ -10,16 +12,18 @@ NO_API_CALLS = False
 
 # Used instead of requesting from API to see code functions normally if NO_API_CALLS == True
 TEST_JSON = [{'arrivalIata': 'AAA'}]
-TEST_RESET_CONN = 0.0
+TEST_RESET_CONN = 0.001
 DEBUG_PRINT = False
 
 airport_route_dict = {
-    'Departure codeIataAirport':[],
-    'Departure Province/State': [],
-    'Departure Country/Region': [],
-    'Arrival codeIataAirport' : [],
-    'Arrival Province/State'  : [],
-    'Arrival Country/Region'  : [],
+    'DepartcodeIataAirport' : [],
+    'DepartCounty'          : [],
+    'DepartProvince/State'  : [],
+    'DepartCountry/Region'  : [],
+    'ArrivalcodeIataAirport': [],
+    'ArrivalCounty'         : [],
+    'ArrivalProvince/State' : [],
+    'ArrivalCountry/Region' : [],
 }
 
 depart_call_q = queue.Queue()
@@ -57,14 +61,14 @@ def parse_args():
 
     return parser.parse_args()
 
-def get_state_country_from_iata(iata_code, airport_df):
+def get_info_from_iata(iata_code, airport_df):
     """
     NOTE: Not Thread Safe! Only call for the thread that puts data into dictionary
     """
     airport = airport_df.loc[airport_df['codeIataAirport'] == iata_code]
     for _index, row in airport.iterrows():
-        return row['Province/State'], row['Country/Region']
-    return None, None
+        return row['County'], row['Province/State'], row['Country/Region']
+    return None, None, None
 
 def call_api(iata_airport):
     current_api_call = API_CALL.format(api_key = API_KEY, depart_codeIata=iata_airport)
@@ -90,14 +94,14 @@ def call_api(iata_airport):
 
 def worker_api_call():
     while True:
-        depart_iata_airport, depart_state, depart_country = depart_call_q.get()
+        depart_iata_airport, depart_county, depart_state, depart_country = depart_call_q.get()
         if depart_iata_airport == None: break
 
         routes = call_api(depart_iata_airport)
 
         # If the connection is reset then put it back onto the queue
         if routes == "reset":
-            depart_call_q.put((depart_iata_airport, depart_state, depart_country))
+            depart_call_q.put((depart_iata_airport, depart_county, depart_state, depart_country))
             depart_call_q.task_done()
             continue
         # Error handling json errors
@@ -105,37 +109,34 @@ def worker_api_call():
             depart_call_q.task_done()
             continue
 
-        push_to_dict_q.put((depart_iata_airport, depart_state, depart_country, routes))
+        push_to_dict_q.put((depart_iata_airport, depart_county, depart_state, depart_country, routes))
 
         depart_call_q.task_done()
 
 def worker_process():
     while True:
-        depart_iata_airport, depart_state, depart_country, routes = push_to_dict_q.get()
+        depart_iata_airport, depart_county, depart_state, depart_country, routes = push_to_dict_q.get()
         if depart_country == None: break
 
         for route in routes:
             arrival_iata_airport = route['arrivalIata']
 
-            arrival_state, arrival_country = get_state_country_from_iata(arrival_iata_airport, AIRPORT_DF)
+            arrival_county, arrival_state, arrival_country = get_info_from_iata(arrival_iata_airport, AIRPORT_DF)
             # If we do not have a record of that iata code ignore it
             if arrival_state == None and arrival_country == None: continue
 
-            airport_route_dict['Departure codeIataAirport'].append(depart_iata_airport)
-            airport_route_dict['Departure Province/State'].append(depart_state)
-            airport_route_dict['Departure Country/Region'].append(depart_country)
-            airport_route_dict['Arrival codeIataAirport'].append(arrival_iata_airport)
-            airport_route_dict['Arrival Province/State'].append(arrival_state)
-            airport_route_dict['Arrival Country/Region'].append(arrival_country)
+            airport_route_dict['DepartcodeIataAirport'].append(depart_iata_airport)
+            airport_route_dict['DepartCounty'].append(depart_county)
+            airport_route_dict['DepartProvince/State'].append(depart_state)
+            airport_route_dict['DepartCountry/Region'].append(depart_country)
+            airport_route_dict['ArrivalcodeIataAirport'].append(arrival_iata_airport)
+            airport_route_dict['ArrivalCounty'].append(arrival_county)
+            airport_route_dict['ArrivalProvince/State'].append(arrival_state)
+            airport_route_dict['ArrivalCountry/Region'].append(arrival_country)
 
         push_to_dict_q.task_done()
 
 def main():
-    if not NO_API_CALLS:
-        permission = input("Are you sure you want to make actual API calls?\nWe only have a limited number and do not want to waste them all.\nType y to confirm.\n")
-        if not permission == 'y':
-            print("Thank you for not accidentally wasting our API calls!")
-            return
     if NUM_OF_THREADS < 2:
         print("{} is not enough threads to download the dataset".format(NUM_OF_THREADS))
         return
@@ -151,17 +152,18 @@ def main():
 
     for _index, row in AIRPORT_DF.iterrows():
         depart_iata_airport = row['codeIataAirport']
+        depart_county = row['County']
         depart_state = row['Province/State']
         depart_country = row['Country/Region']
 
-        depart_call_q.put((depart_iata_airport, depart_state, depart_country))
+        depart_call_q.put((depart_iata_airport, depart_county, depart_state, depart_country))
 
     print("Completing all of the API calls...")
 
     depart_call_q.join()
 
     for thread in threads:
-        depart_call_q.put((None, None, None))
+        depart_call_q.put((None, None, None, None))
 
     for thread in threads:
         thread.join()
@@ -170,16 +172,18 @@ def main():
 
     push_to_dict_q.join()
 
-    push_to_dict_q.put((None, None, None, None))
+    push_to_dict_q.put((None, None, None, None, None))
     processing_thread.join()
     print("Finished processing data, now saving to file.")
 
-    route_df = pd.DataFrame(airport_route_dict, columns=['Departure codeIataAirport',
-                                                         'Departure Province/State',
-                                                         'Departure Country/Region',
-                                                         'Arrival codeIataAirport',
-                                                         'Arrival Province/State',
-                                                         'Arrival Country/Region'])
+    route_df = pd.DataFrame(airport_route_dict, columns=['DepartcodeIataAirport',
+                                                         'DepartCounty',
+                                                         'DepartProvince/State',
+                                                         'DepartCountry/Region',
+                                                         'ArrivalcodeIataAirport',
+                                                         'ArrivalCounty',
+                                                         'ArrivalProvince/State',
+                                                         'ArrivalCountry/Region'])
 
     try:
         route_df.to_csv(ROUTES_DATASET, index=False, header=True)
