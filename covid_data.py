@@ -60,7 +60,6 @@ class CovidData:
 
         if not country == None:
             new_routes_df = new_routes_df.loc[(new_routes_df['DepartCountry/Region'] == country) & (new_routes_df['ArrivalCountry/Region'] == country)]
-            # new_routes_df = new_routes_df.loc[new_routes_df['ArrivalCountry/Region'] == country]
 
         new_routes_df['NumberOfRoutes'] = 1
         agg_dict = {'NumberOfRoutes' : ['sum']}
