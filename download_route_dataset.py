@@ -72,7 +72,6 @@ def get_info_from_iata(iata_code, airport_df):
 
 def call_api(iata_airport):
     current_api_call = API_CALL.format(api_key = API_KEY, depart_codeIata=iata_airport)
-
     if DEBUG_PRINT:
         print(iata_airport)
 
@@ -88,6 +87,7 @@ def call_api(iata_airport):
         print("Error connecting to server for Iata Code {}".format(iata_airport))
         return "reset"
     json_data = response.json()
+    print(json_data)
     if type(json_data) == type({}):
         return None
     return json_data
@@ -193,7 +193,6 @@ def main():
 
     print("DONE! Dataset saved to {}".format(ROUTES_DATASET))
 
-
 if __name__ == "__main__":
     args = parse_args()
 
@@ -205,5 +204,8 @@ if __name__ == "__main__":
     NO_API_CALLS = args.no_api_calls
     DEBUG_PRINT = args.debug
     AIRPORT_DF = pd.read_csv(AIRPORT_DATASET)
+
+    if args.update_routes:
+        update_routes_from_airportdf(AIRPORT_DF, ROUTES_DATASET)
 
     main()

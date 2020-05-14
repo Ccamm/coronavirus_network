@@ -259,6 +259,17 @@ class AirportToLocation:
             c = np.multiply(2,np.arctan2(np.sqrt(a), np.sqrt(1-a)))
             return np.multiply(c, EARTH_RADIUS)
 
+        def edge_cases(closest):
+            """
+            Due to the odd placement of the UK in Lat and Long from the COVID-19
+            dataset, have to manually adjust certain airport locations.
+            """
+            if closest['Country/Region'] == "United Kingdom":
+                if closest['Province/State'] == "Isle of Man" or closest['Province/State'] == "Channel Islands":
+                   closest["Province/State"] = np.nan
+            return closest
+
+
         airport_dataset = {
             'codeIataAirport' : [],
             'County'          : [],
@@ -297,7 +308,11 @@ class AirportToLocation:
             distances_arr = haversine_formula(airport_json['latitudeAirport'], airport_json['longitudeAirport'], possible_locations_df['Lat'].to_numpy(), possible_locations_df['Long'].to_numpy())
             possible_locations_df['distance'] = distances_arr
 
-            closest = possible_locations_df.sort_values('distance').iloc[0]
+            try:
+                closest = possible_locations_df.sort_values('distance').iloc[0]
+            except:
+                continue
+            closest = edge_cases(closest)
 
             airport_dataset['codeIataAirport'].append(airport_json['codeIataAirport'])
             airport_dataset['County'].append(closest['County'])

@@ -181,6 +181,7 @@ AJI,,,Turkey,39.65,43.025
 AJJ,,,Mauritania,19.730556,-14.374444
 AJK,,,Iran,34.13333,49.833332
 AJL,,,India,23.838985,92.62482
+AJN,,,Comoros,-12.126389,44.42972
 AJR,,,Sweden,65.59139,19.285557
 AJS,,,Mexico,26.833332,-113.666664
 AJU,,,Brazil,-10.987206,-37.072792
@@ -527,10 +528,10 @@ BBK,,,Botswana,-17.816668,25.15
 BBM,,,Cambodia,13.116667,103.2
 BBN,,,Malaysia,3.683333,115.46667
 BBO,,,Somalia,10.419444,45.00639
-BBP,,Channel Islands,United Kingdom,50.683334,-1.083333
+BBP,,,United Kingdom,50.683334,-1.083333
 BBQ,,,Antigua and Barbuda,17.555555,-61.765
 BBR,,Guadeloupe,France,16.01639,-61.739445
-BBS,,Channel Islands,United Kingdom,51.333332,-0.85
+BBS,,,United Kingdom,51.333332,-0.85
 BBT,,,Central African Republic,4.219167,15.788056
 BBU,,,Romania,44.495934,26.080996
 BBV,,,Cote d'Ivoire,4.666667,-6.95
@@ -603,13 +604,13 @@ BEL,,,Brazil,-1.389865,-48.480003
 BEN,,,Libya,32.085423,20.26489
 BEO,,New South Wales,Australia,-33.033333,151.66667
 BEP,,,India,15.183333,76.9
-BEQ,,Channel Islands,United Kingdom,52.35,0.766667
+BEQ,,,United Kingdom,52.35,0.766667
 BES,,,France,48.445374,-4.415827
 BET,Bethel,Alaska,US,60.784443,-161.83139
 BEU,,South Australia,Australia,-24.23,139.445
 BEV,,,Israel,31.25,34.8
 BEW,,,Mozambique,-19.798805,34.90192
-BEX,,Channel Islands,United Kingdom,51.63333,-1.083333
+BEX,,,United Kingdom,51.63333,-1.083333
 BEY,,,Lebanon,33.826073,35.49308
 BFA,,,Paraguay,-20.232779,-58.170277
 BFB,Kodiak Island,Alaska,US,58.183334,-152.13333
@@ -628,7 +629,7 @@ BFO,,,Zimbabwe,-21.009167,31.579166
 BFP,Beaver,Pennsylvania,US,40.766666,-80.4
 BFQ,,,Panama,7.583333,-78.166664
 BFR,Lawrence,Indiana,US,38.86667,-86.48333
-BFS,,Isle of Man,United Kingdom,54.662395,-6.217616
+BFS,,,United Kingdom,54.662395,-6.217616
 BFT,Beaufort,South Carolina,US,32.41083,-80.635
 BFU,,Anhui,China,32.95,117.333336
 BFV,,,Thailand,15.226944,103.25528
@@ -662,7 +663,7 @@ BGZ,,,Portugal,41.55,-8.433333
 BHA,,,Ecuador,-0.6,-80.416664
 BHB,Hancock,Maine,US,44.44889,-68.361664
 BHC,,,Pakistan,33.925,73.433334
-BHD,,Isle of Man,United Kingdom,54.61452,-5.870215
+BHD,,,United Kingdom,54.61452,-5.870215
 BHE,,,New Zealand,-41.513588,173.86765
 BHF,,,Colombia,6.716667,-77.51667
 BHG,,,Honduras,15.734722,-84.543335
@@ -682,7 +683,7 @@ BHT,,Queensland,Australia,-23.366667,141.56667
 BHU,,,India,21.755,72.18444
 BHV,,,Pakistan,29.4,71.683334
 BHW,,,Pakistan,32.166668,72.666664
-BHX,,Isle of Man,United Kingdom,52.45252,-1.733256
+BHX,,,United Kingdom,52.45252,-1.733256
 BHY,,Guangxi,China,21.540333,109.28785
 BIA,,,France,42.547615,9.480124
 BIB,,,Somalia,3.066667,43.63333
@@ -765,7 +766,7 @@ BLG,,,Malaysia,2.7,113.78333
 BLH,La Paz,Arizona,US,33.620834,-114.71889
 BLI,San Juan,Washington,US,48.795734,-122.53267
 BLJ,,,Algeria,35.566666,6.183333
-BLK,,Isle of Man,United Kingdom,53.778385,-3.041985
+BLK,,,United Kingdom,53.778385,-3.041985
 BLL,,,Denmark,55.747383,9.147874
 BLM,Monmouth,New Jersey,US,40.183334,-74.01667
 BLN,,Victoria,Australia,-36.55,145.98334
@@ -834,11 +835,11 @@ BOD,,,France,44.83102,-0.70217
 BOE,,,Congo (Brazzaville),-1.033333,15.383333
 BOF,District of Columbia,District of Columbia,US,38.9,-77.03333
 BOG,,,Colombia,4.698602,-74.143135
-BOH,,Channel Islands,United Kingdom,50.77827,-1.832476
+BOH,,,United Kingdom,50.77827,-1.832476
 BOI,Ada,Idaho,US,43.569263,-116.22193
 BOJ,,,Bulgaria,42.416668,27.283333
 BOK,Curry,Oregon,US,42.05,-124.28333
-BOL,,Isle of Man,United Kingdom,55.0,-7.0
+BOL,,,United Kingdom,55.0,-7.0
 BOM,,,India,19.095509,72.87497
 BON,,"Bonaire, Sint Eustatius and Saba",Netherlands,12.133403,-68.27687
 BOO,,,Norway,67.27262,14.367839
@@ -871,7 +872,7 @@ BQA,,,Philippines,15.0,121.083336
 BQB,,Western Australia,Australia,-33.716667,115.25
 BQE,,,Guinea-Bissau,11.3,-15.85
 BQG,,,Russia,52.378334,140.44833
-BQH,,Channel Islands,United Kingdom,51.333332,0.033333
+BQH,,,United Kingdom,51.333332,0.033333
 BQJ,,,Russia,67.655,134.641667
 BQK,Glynn,Georgia,US,31.166668,-81.48333
 BQL,,South Australia,Australia,-22.9,139.9
@@ -888,7 +889,7 @@ BRB,,,Brazil,-2.910626,-57.11111
 BRC,,,Argentina,-41.145966,-71.16109
 BRD,Crow Wing,Minnesota,US,46.39722,-94.1375
 BRE,,,Germany,53.05297,8.785352
-BRF,,Isle of Man,United Kingdom,53.8,-1.75
+BRF,,,United Kingdom,53.8,-1.75
 BRH,,,Papua New Guinea,-5.7,145.36667
 BRI,,,Italy,41.13388,16.76391
 BRJ,,Victoria,Australia,-36.7,146.93333
@@ -900,7 +901,7 @@ BRO,Cameron,Texas,US,25.90889,-97.42333
 BRP,,,Papua New Guinea,-7.533333,146.7
 BRQ,,,Czechia,49.15,16.7
 BRR,,,United Kingdom,57.023335,-7.440278
-BRS,,Channel Islands,United Kingdom,51.386757,-2.710659
+BRS,,,United Kingdom,51.386757,-2.710659
 BRT,,Northern Territory,Australia,-11.766667,130.63333
 BRU,,,Belgium,50.89717,4.483602
 BRV,,,Germany,53.75,8.916667
@@ -915,7 +916,7 @@ BSD,,Yunnan,China,25.055182,99.16143
 BSE,,,Malaysia,1.8,109.76667
 BSF,Honolulu,Hawaii,US,21.383333,-157.75
 BSG,,,Equatorial Guinea,1.906667,9.802222
-BSH,,Channel Islands,United Kingdom,50.816666,-0.116667
+BSH,,,United Kingdom,50.816666,-0.116667
 BSI,Westmoreland,Pennsylvania,US,40.45,-79.28333
 BSJ,,Victoria,Australia,-37.833332,147.63333
 BSK,,,Algeria,34.79333,5.738056
@@ -1005,7 +1006,7 @@ BWB,,Western Australia,Australia,-20.783333,115.416664
 BWC,Imperial,California,US,32.983334,-115.51667
 BWD,Brown,Texas,US,31.794722,-98.956665
 BWE,,,Germany,52.266666,10.533333
-BWF,,Isle of Man,United Kingdom,54.11667,-3.233333
+BWF,,,United Kingdom,54.11667,-3.233333
 BWG,Warren,Kentucky,US,36.962223,-86.42222
 BWH,,,Malaysia,5.466667,100.3925
 BWI,Baltimore City,Maryland,US,39.179527,-76.66894
@@ -1086,7 +1087,7 @@ BZT,Brazoria,Texas,US,29.05,-95.566666
 BZU,,,Congo (Kinshasa),2.8,24.733334
 BZV,,,Congo (Brazzaville),-4.258899,15.251139
 BZY,,,Moldova,47.75,27.933332
-BZZ,,Channel Islands,United Kingdom,51.75,-1.587093
+BZZ,,,United Kingdom,51.75,-1.587093
 CAA,,,Honduras,14.830556,-85.89445
 CAB,,,Angola,-5.583333,12.2
 CAC,,,Brazil,-24.95,-53.466667
@@ -1119,7 +1120,7 @@ CBC,,Northern Territory,Australia,-18.916668,125.55
 CBD,,,India,9.15,92.816666
 CBE,Allegany,Maryland,US,39.614445,-78.76611
 CBF,Douglas,Nebraska,US,41.266666,-95.86667
-CBG,,Channel Islands,United Kingdom,52.2,0.183333
+CBG,,,United Kingdom,52.2,0.183333
 CBH,,,Algeria,31.647778,-2.259722
 CBI,,Tasmania,Australia,-40.333332,148.16667
 CBJ,,,Dominican Republic,17.933332,-71.65
@@ -1190,7 +1191,7 @@ CEC,Del Norte,California,US,41.78,-124.23583
 CED,,South Australia,Australia,-32.12378,133.70122
 CEE,,,Russia,59.283333,38.066666
 CEF,Hampden,Massachusetts,US,42.183376,-72.55383
-CEG,,Isle of Man,United Kingdom,53.166668,-2.916667
+CEG,,,United Kingdom,53.166668,-2.916667
 CEH,,,Malawi,-10.55,33.8
 CEI,,,Thailand,19.954609,99.878815
 CEK,,,Russia,55.297504,61.51235
@@ -1574,7 +1575,7 @@ CVN,Parmer,Texas,US,34.427223,-103.07889
 CVO,Benton,Oregon,US,44.63333,-123.11667
 CVQ,,Western Australia,Australia,-24.883429,113.66358
 CVS,Curry,New Mexico,US,34.38389,-103.316666
-CVT,,Isle of Man,United Kingdom,52.369167,-1.478611
+CVT,,,United Kingdom,52.369167,-1.478611
 CVU,,,Portugal,39.7,-31.1
 CWA,Marathon,Wisconsin,US,44.78421,-89.67244
 CWB,,,Brazil,-25.5322,-49.176544
@@ -1582,7 +1583,7 @@ CWC,,,Ukraine,48.266666,25.966667
 CWF,Calcasieu,Louisiana,US,30.305918,-93.23189
 CWG,Harris,Georgia,US,32.84028,-84.8825
 CWI,Clinton,Iowa,US,41.829445,-90.33195
-CWL,,Channel Islands,United Kingdom,51.39877,-3.339075
+CWL,,,United Kingdom,51.39877,-3.339075
 CWO,Palo Pinto,Texas,US,32.8,-98.11667
 CWP,,,Pakistan,33.766666,72.433334
 CWR,,South Australia,Australia,-27.716667,138.33333
@@ -1874,7 +1875,7 @@ DRV,,,Maldives,5.156111,73.13028
 DRW,,Northern Territory,Australia,-12.407805,130.87752
 DRX,,,Germany,51.13,13.77
 DRY,,Northern Territory,Australia,-15.666667,126.416664
-DSA,,Isle of Man,United Kingdom,53.481003,-1.01155
+DSA,,,United Kingdom,53.481003,-1.01155
 DSC,,,Cameroon,5.833333,10.091667
 DSD,,Guadeloupe,France,16.333332,-61.016666
 DSE,,,Ethiopia,11.075,39.71528
@@ -1932,6 +1933,7 @@ DYL,Bucks,Pennsylvania,US,40.316666,-75.13333
 DYM,,South Australia,Australia,-26.75,139.16667
 DYR,,,Russia,64.73333,177.75
 DYS,Taylor,Texas,US,32.466667,-99.71667
+DYU,,,Tajikistan,38.54894,68.81728
 DYW,,Northern Territory,Australia,-16.25,133.4
 DZA,,Mayotte,France,-12.804901,45.2821
 DZI,,,Colombia,10.016667,-73.25
@@ -2055,7 +2057,7 @@ ELW,Valdez-Cordova,Alaska,US,60.9,-146.23334
 ELX,,,Venezuela,8.883333,-64.26667
 ELY,White Pine,Nevada,US,39.301945,-114.84194
 ELZ,Allegany,New York,US,42.11667,-77.95
-EMA,,Isle of Man,United Kingdom,52.82587,-1.330595
+EMA,,,United Kingdom,52.82587,-1.330595
 EMB,San Francisco,California,US,37.62528,-122.375
 EMD,,Queensland,Australia,-23.56861,148.1744
 EME,,,Germany,53.36667,7.2
@@ -2080,7 +2082,7 @@ ENF,,,Finland,68.35,23.416668
 ENH,,Chongqing,China,30.321934,109.48201
 ENI,,,Philippines,11.205556,119.41278
 ENJ,,,Guatemala,17.333332,-90.166664
-ENK,,Isle of Man,United Kingdom,54.35,-7.633333
+ENK,,,United Kingdom,54.35,-7.633333
 ENL,Marion,Illinois,US,38.516666,-89.13333
 ENN,Denali,Alaska,US,64.566666,-149.11667
 ENO,,,Paraguay,-27.25,-55.833332
@@ -2132,7 +2134,7 @@ ESD,San Juan,Washington,US,48.708332,-122.9125
 ESE,,,Mexico,31.866667,-116.61667
 ESF,Rapides,Louisiana,US,31.395,-92.29694
 ESG,,,Paraguay,-22.033333,-60.61667
-ESH,,Channel Islands,United Kingdom,50.833332,-0.3
+ESH,,,United Kingdom,50.833332,-0.3
 ESI,,,Brazil,-15.0,-44.0
 ESK,,,Turkey,39.784138,30.582111
 ESL,,,Russia,46.36667,44.333332
@@ -2181,7 +2183,7 @@ EWO,,,Congo (Brazzaville),-0.883333,14.8
 EWR,Hudson,New Jersey,US,40.68907,-74.17876
 EXI,Hoonah-Angoon,Alaska,US,58.420834,-135.44722
 EXM,,Western Australia,Australia,-22.25,114.25
-EXT,,Channel Islands,United Kingdom,50.73111,-3.410968
+EXT,,,United Kingdom,50.73111,-3.410968
 EYK,,,Russia,63.696682,66.70121
 EYL,,,Mali,15.133333,-10.566667
 EYP,,,Colombia,5.320729,-72.386284
@@ -2192,7 +2194,7 @@ EZE,,,Argentina,-34.81273,-58.539833
 EZS,,,Turkey,38.608334,39.291668
 EZV,,,Russia,63.924583,65.04485
 FAA,,,Guinea,10.033333,-10.75
-FAB,,Channel Islands,United Kingdom,51.283333,-0.766667
+FAB,,,United Kingdom,51.283333,-0.766667
 FAC,,French Polynesia,France,-16.683332,-145.33333
 FAE,,Faroe Islands,Denmark,62.066666,-7.266667
 FAF,York,Virginia,US,37.166668,-76.6
@@ -2250,7 +2252,7 @@ FET,Dodge,Nebraska,US,41.433334,-96.5
 FEW,Laramie,Wyoming,US,41.13333,-104.816666
 FEZ,,,Morocco,33.93079,-4.982138
 FFA,Dare,North Carolina,US,36.016666,-75.666664
-FFD,,Channel Islands,United Kingdom,51.733334,-1.783333
+FFD,,,United Kingdom,51.733334,-1.783333
 FFL,Jefferson,Iowa,US,40.933334,-91.95
 FFM,Otter Tail,Minnesota,US,46.283333,-96.066666
 FFO,Montgomery,Ohio,US,39.75,-84.2
@@ -2576,7 +2578,7 @@ GLK,,,Somalia,6.766667,47.433334
 GLL,,,Norway,60.7,8.95
 GLM,,South Australia,Australia,-22.916668,138.83333
 GLN,,,Morocco,29.016666,-10.066667
-GLO,,Channel Islands,United Kingdom,51.88333,-2.233333
+GLO,,,United Kingdom,51.88333,-2.233333
 GLP,,,Papua New Guinea,-5.283333,141.51666
 GLQ,Valdez-Cordova,Alaska,US,62.11667,-145.55
 GLR,Otsego,Michigan,US,45.033333,-84.666664
@@ -2778,6 +2780,7 @@ HAC,,,Japan,33.117947,139.78122
 HAD,,,Sweden,56.680935,12.815005
 HAE,Coconino,Arizona,US,36.230556,-112.66944
 HAF,San Mateo,California,US,37.466667,-122.433334
+HAH,,,Comoros,-11.537275,43.27492
 HAI,St. Joseph,Michigan,US,41.95,-85.63333
 HAJ,,,Germany,52.459255,9.694766
 HAK,,Hainan,China,19.941612,110.45717
@@ -2790,7 +2793,7 @@ HAR,Dauphin,Pennsylvania,US,40.21611,-76.85222
 HAS,,,Saudi Arabia,27.438158,41.690483
 HAU,,,Norway,59.344765,5.215903
 HAV,,,Cuba,22.99845,-82.40818
-HAW,,Isle of Man,United Kingdom,51.8,-4.966667
+HAW,,,United Kingdom,51.8,-4.966667
 HAY,Nome,Alaska,US,65.21667,-161.16667
 HAZ,,,Papua New Guinea,-4.433333,145.18333
 HBA,,Tasmania,Australia,-42.837257,147.50519
@@ -2921,7 +2924,7 @@ HLT,,Victoria,Australia,-37.65,142.06056
 HLU,,New Caledonia,France,-21.033333,166.06667
 HLV,,Northern Territory,Australia,-15.683333,145.2
 HLW,,,South Africa,-28.016666,32.25
-HLY,,Isle of Man,United Kingdom,53.3,-4.633333
+HLY,,,United Kingdom,53.3,-4.633333
 HLZ,,,New Zealand,-37.86622,175.33603
 HMA,,,Russia,61.02613,69.09714
 HMB,,,Egypt,26.338877,31.737167
@@ -3069,7 +3072,7 @@ HWN,,,Zimbabwe,-19.3625,26.518333
 HWO,Broward,Florida,US,26.0,-80.15
 HXX,,Victoria,Australia,-34.516666,144.83333
 HYA,Barnstable,Massachusetts,US,41.665833,-70.280556
-HYC,,Channel Islands,United Kingdom,51.61667,-0.75
+HYC,,,United Kingdom,51.61667,-0.75
 HYD,,,India,17.24,78.428055
 HYF,,,Papua New Guinea,-3.633333,143.05
 HYG,Prince of Wales-Hyder,Alaska,US,55.20667,-132.82666
@@ -3237,7 +3240,7 @@ INY,,,South Africa,-24.783333,31.383333
 INZ,,,Algeria,27.25,2.516667
 IOA,,,Greece,39.696667,20.825832
 IOK,,,Papua New Guinea,-8.4,146.26666
-IOM,,Isle of Man,United Kingdom,54.08677,-4.63473
+IOM,,,United Kingdom,54.08677,-4.63473
 ION,,,Congo (Brazzaville),1.613333,18.061943
 IOP,,,Papua New Guinea,-8.35,147.75
 IOR,,,Ireland,53.11667,-9.75
@@ -3254,7 +3257,7 @@ IPN,,,Brazil,-19.5,-42.533333
 IPR,,,Italy,45.463681,9.1881714
 IPT,Lycoming,Pennsylvania,US,41.24222,-76.920555
 IPU,,,Brazil,-14.133333,-39.733334
-IPW,,Channel Islands,United Kingdom,52.066666,1.166667
+IPW,,,United Kingdom,52.066666,1.166667
 IQA,,,Iraq,63.75175,-68.53658
 IQM,,Xinjiang,China,38.13333,85.53333
 IQN,,Shaanxi,China,35.8001,107.6044
@@ -3279,7 +3282,7 @@ IRU,,,Sri Lanka,35.921055,139.50674
 IRZ,,,Brazil,-0.380296,-64.996025
 ISA,,Northern Territory,Australia,-20.667637,139.49179
 ISB,,,Pakistan,33.609707,73.1051
-ISC,,Channel Islands,United Kingdom,49.913334,-6.291667
+ISC,,,United Kingdom,49.913334,-6.291667
 ISD,,,Colombia,2.466667,-77.98333
 ISE,,,Turkey,37.86611,30.382221
 ISG,,,Japan,24.336945,124.16889
@@ -3852,7 +3855,7 @@ KNA,,,Chile,-33.033333,-71.566666
 KNB,Kane,Utah,US,37.05,-112.53333
 KND,,,Congo (Kinshasa),-2.9225,25.913889
 KNE,,,Papua New Guinea,-5.283333,144.7
-KNF,,Isle of Man,United Kingdom,52.75,0.4
+KNF,,,United Kingdom,52.75,0.4
 KNG,,,Indonesia,-3.65,133.75
 KNH,,,Taiwan*,24.420555,118.344444
 KNI,,Western Australia,Australia,-33.7,117.55
@@ -3918,6 +3921,7 @@ KPV,Aleutians East,Alaska,US,55.906666,-159.145
 KPY,Kodiak Island,Alaska,US,57.933334,-153.03334
 KQA,Aleutians East,Alaska,US,54.13333,-165.78334
 KQL,,,Papua New Guinea,-5.65,144.86667
+KQT,,,Tajikistan,37.85961,68.86117
 KRA,,Victoria,Australia,-35.666668,143.91667
 KRB,,Northern Territory,Australia,-17.456667,140.83194
 KRC,,,Indonesia,-1.716667,101.25
@@ -4052,7 +4056,7 @@ KYE,,,Lebanon,34.58611,36.002777
 KYF,,Western Australia,Australia,-27.277779,120.075
 KYI,,South Australia,Australia,-31.483334,131.86667
 KYK,Kodiak Island,Alaska,US,57.566113,-154.45
-KYN,,Channel Islands,United Kingdom,52.03428,-0.774107
+KYN,,,United Kingdom,52.03428,-0.774107
 KYO,Pasco,Florida,US,28.216667,-82.36667
 KYP,,,Burma,19.433332,93.53333
 KYS,,,Mali,14.431944,-11.439444
@@ -4097,9 +4101,10 @@ LAW,Comanche,Oklahoma,US,34.56972,-98.416115
 LAX,Los Angeles,California,US,33.943398,-118.40828
 LAY,,,South Africa,-28.566668,29.75
 LAZ,,,Brazil,-13.256944,-43.4125
-LBA,,Isle of Man,United Kingdom,53.86934,-1.659985
+LBA,,,United Kingdom,53.86934,-1.659985
 LBB,Lubbock,Texas,US,33.65622,-101.8223
 LBC,,,Germany,53.80527,10.701162
+LBD,,,Tajikistan,40.219887,69.6965
 LBE,Westmoreland,Pennsylvania,US,40.27639,-79.40278
 LBF,Lincoln,Nebraska,US,41.128334,-100.69667
 LBG,,,France,48.971943,2.4425
@@ -4143,7 +4148,7 @@ LCR,,,Colombia,-0.733333,-73.01667
 LCS,,,Costa Rica,10.418889,-85.104164
 LCV,,,Italy,43.833332,10.583333
 LCX,,Fujian,China,25.675556,116.74556
-LCY,,Channel Islands,United Kingdom,51.5,0.05
+LCY,,,United Kingdom,51.5,0.05
 LCZ,,,Italy,40.3532912,18.1740146
 LDA,,,India,25.033333,88.15
 LDB,,,Brazil,-23.328457,-51.137714
@@ -4163,13 +4168,14 @@ LDU,,,Malaysia,5.035278,118.32611
 LDV,,,France,48.5,-4.1
 LDW,,Northern Territory,Australia,-17.883333,126.65
 LDX,,French Guiana,France,5.483333,-54.05
-LDY,,Isle of Man,United Kingdom,55.039566,-7.155835
+LDY,,,United Kingdom,55.039566,-7.155835
 LDZ,,,South Africa,-24.8,31.5
 LEA,,Western Australia,Australia,-22.239883,114.09427
 LEB,Windsor,Vermont,US,43.62936,-72.310005
 LEC,,,Brazil,-12.48,-41.281113
 LED,,,Russia,59.806084,30.3083
 LEE,Lake,Florida,US,28.833332,-81.816666
+LEF,,,Lesotho,-29.783333,28.583332
 LEG,,,Mauritania,17.166668,-13.95
 LEH,,,France,49.53889,0.088611
 LEI,,,Spain,36.847984,-2.371873
@@ -4180,8 +4186,9 @@ LEM,Adams,North Dakota,US,45.940834,-102.15889
 LEN,,,Spain,42.59057,-5.64629
 LEO,,,Gabon,-1.566667,14.216667
 LEP,,,Brazil,-21.466667,-42.666668
-LEQ,,Channel Islands,United Kingdom,50.05,-5.733333
+LEQ,,,United Kingdom,50.05,-5.733333
 LER,,Western Australia,Australia,-27.833332,120.61667
+LES,,,Lesotho,-29.666668,27.666668
 LET,,,Colombia,-4.196389,-69.939445
 LEU,,,Spain,42.416668,1.466667
 LEV,,,Fiji,-17.683332,178.83333
@@ -4219,7 +4226,7 @@ LGR,,,Chile,-47.166668,-72.0
 LGS,,,Argentina,-35.5,-69.583336
 LGT,,,Colombia,9.166667,-74.5
 LGU,Cache,Utah,US,41.7875,-111.855
-LGW,,Channel Islands,United Kingdom,51.156807,-0.161863
+LGW,,,United Kingdom,51.156807,-0.161863
 LGX,,,Somalia,3.8,42.05
 LGY,,,Venezuela,8.516667,-71.4
 LGZ,,,Colombia,37.755833,20.888332
@@ -4231,7 +4238,7 @@ LHI,,,Indonesia,-3.133333,139.9
 LHK,,Hubei,China,32.266666,111.63333
 LHN,,,Taiwan*,23.433332,121.3
 LHP,,,Papua New Guinea,-6.5,155.7
-LHR,,Channel Islands,United Kingdom,51.469604,-0.453566
+LHR,,,United Kingdom,51.469604,-0.453566
 LHS,,,Argentina,-32.85,-68.816666
 LHV,Clinton,Pennsylvania,US,41.13333,-77.45
 LIA,,Chongqing,China,30.816668,107.7
@@ -4281,7 +4288,7 @@ LKU,,,Kenya,3.416667,35.88333
 LKV,Modoc,California,US,42.166668,-120.4
 LKW,,,Oman,22.8047,55.3658
 LKY,,,Tanzania,-3.5,36.416668
-LKZ,,Isle of Man,United Kingdom,52.49167,0.67609
+LKZ,,,United Kingdom,52.49167,0.67609
 LLA,,,Sweden,65.54939,22.123587
 LLB,,Guizhou,China,25.452477,107.961914
 LLE,,,South Africa,-25.466667,31.566668
@@ -4370,7 +4377,7 @@ LPG,,,Argentina,-34.916668,-57.95
 LPI,,,Sweden,58.406944,15.656944
 LPJ,,,Venezuela,7.0,-67.666664
 LPK,,,Russia,52.61667,39.6
-LPL,,Isle of Man,United Kingdom,53.337616,-2.854905
+LPL,,,United Kingdom,53.337616,-2.854905
 LPN,,,Papua New Guinea,-6.58,146.45
 LPO,LaPorte,Indiana,US,41.6,-86.71667
 LPP,,,Finland,61.046112,28.156668
@@ -4386,6 +4393,7 @@ LQM,,,Colombia,-0.3,-74.583336
 LQN,,,Afghanistan,34.95,63.666668
 LQS,,Xinjiang,China,43.826687,18.336065
 LRA,,,Greece,39.65111,22.463888
+LRB,,,Lesotho,-28.966667,28.0
 LRD,Webb,Texas,US,27.543667,-99.455124
 LRE,,Queensland,Australia,-23.439474,144.27147
 LRF,Pulaski,Arkansas,US,34.916668,-92.15
@@ -4438,7 +4446,7 @@ LTI,,,Mongolia,46.65,96.416664
 LTK,,,Syria,35.407352,35.943993
 LTL,,,Gabon,-0.833333,12.716667
 LTM,,,Guyana,3.371667,-59.79
-LTN,,Channel Islands,United Kingdom,51.87977,-0.376232
+LTN,,,United Kingdom,51.87977,-0.376232
 LTO,,,Mexico,25.983334,-111.35
 LTP,,South Australia,Australia,-30.283333,138.35
 LTQ,,,France,50.515,1.628056
@@ -4510,7 +4518,7 @@ LXV,Lake,Colorado,US,39.22028,-106.31611
 LYA,,Henan,China,34.736362,112.38541
 LYB,,Cayman Islands,United Kingdom,19.6592,-80.08472
 LYC,,,Sweden,64.55071,18.70967
-LYE,,Channel Islands,United Kingdom,51.516666,-1.966667
+LYE,,,United Kingdom,51.516666,-1.966667
 LYG,,Jiangsu,China,34.565937,118.87698
 LYH,Lynchburg,Virginia,US,37.326942,-79.20111
 LYI,,Shandong,China,35.047478,118.40707
@@ -4521,7 +4529,7 @@ LYP,,,Pakistan,31.363043,72.98757
 LYS,,,France,45.721424,5.080334
 LYT,,Queensland,Australia,-24.116667,152.7
 LYU,Lake,Minnesota,US,47.82389,-91.82917
-LYX,,Channel Islands,United Kingdom,50.95,0.933333
+LYX,,,United Kingdom,50.95,0.933333
 LZA,,,Congo (Kinshasa),-7.666667,22.5
 LZC,,,Mexico,18.0,-102.21667
 LZH,,Guangxi,China,24.206156,109.39843
@@ -4544,7 +4552,7 @@ MAI,,,Malawi,-14.5,35.25
 MAK,,,South Sudan,9.555556,31.644444
 MAL,,,Indonesia,-1.833333,125.916664
 MAM,,,Mexico,25.770279,-97.52361
-MAN,,Isle of Man,United Kingdom,53.362907,-2.273354
+MAN,,,United Kingdom,53.362907,-2.273354
 MAO,,,Brazil,-3.031327,-60.046093
 MAP,,,Papua New Guinea,-10.333333,149.5
 MAQ,,,Thailand,16.666668,98.583336
@@ -4660,6 +4668,7 @@ MEY,,,Nepal,27.57639,84.23139
 MEZ,,,South Africa,-22.366667,29.833332
 MFA,,,Tanzania,-7.913889,39.665
 MFB,,,Colombia,0.616667,-69.75
+MFC,,,Lesotho,-29.75,27.3
 MFD,Richland,Ohio,US,40.82,-82.51278
 MFE,Hidalgo,Texas,US,26.181295,-98.23978
 MFF,,,Gabon,-1.536944,13.270833
@@ -4727,7 +4736,7 @@ MHU,,Victoria,Australia,-36.966667,147.18333
 MHV,Kern,California,US,35.066666,-118.15
 MHW,,,Bolivia,-19.8325,-63.966667
 MHY,,,Papua New Guinea,-8.7,141.63333
-MHZ,,Channel Islands,United Kingdom,52.36667,0.483333
+MHZ,,,United Kingdom,52.36667,0.483333
 MIA,Miami-Dade,Florida,US,25.796,-80.27824
 MIB,Ward,North Dakota,US,48.233334,-101.3
 MIC,Hennepin,Minnesota,US,45.061943,-93.35389
@@ -4780,6 +4789,7 @@ MKC,Kansas City,Missouri,US,39.12417,-94.59194
 MKE,Milwaukee,Wisconsin,US,42.948093,-87.90267
 MKF,Muscogee,Georgia,US,32.466667,-84.98333
 MKG,Muskegon,Michigan,US,43.170555,-86.2375
+MKH,,,Lesotho,-29.166668,29.166668
 MKI,,,Central African Republic,5.316667,25.95
 MKJ,,,Congo (Brazzaville),-0.020278,15.576667
 MKK,Kalawao,Hawaii,US,21.152779,-157.1
@@ -4970,6 +4980,7 @@ MSB,,St Martin,France,18.066668,-63.066666
 MSC,Maricopa,Arizona,US,33.416668,-111.833336
 MSD,Central Utah,Utah,US,39.524723,-111.47444
 MSF,,Northern Territory,Australia,-22.516666,135.0
+MSG,,,Lesotho,-29.733334,28.75
 MSH,,,Oman,20.680555,58.891666
 MSI,,,Indonesia,-5.583333,114.433334
 MSJ,,,Japan,40.696316,141.3869
@@ -4983,6 +4994,7 @@ MSQ,,,Belarus,53.889725,28.032442
 MSR,,,Turkey,38.725,41.625
 MSS,St. Lawrence,New York,US,44.93778,-74.846664
 MST,,,Netherlands,50.91562,5.768827
+MSU,,,Lesotho,-29.30139,27.505556
 MSV,Sullivan,New York,US,41.70139,-74.795
 MSW,,,Eritrea,15.603333,39.441113
 MSX,,,Congo (Brazzaville),-2.95,12.733333
@@ -5269,7 +5281,7 @@ NHD,,,United Arab Emirates,25.023756,55.373653
 NHF,,,Sudan,15.35,35.733334
 NHK,St. Mary's,Maryland,US,38.3,-76.433334
 NHS,,,Pakistan,29.583332,66.0
-NHT,,Channel Islands,United Kingdom,51.533333,-0.366667
+NHT,,,United Kingdom,51.533333,-0.366667
 NHV,,French Polynesia,France,-8.795214,-140.22223
 NHX,Baldwin,Alabama,US,30.4,-87.683334
 NHZ,Sagadahoc,Maine,US,43.916668,-69.96667
@@ -5301,6 +5313,7 @@ NKM,,,Japan,35.25389,136.91957
 NKN,,,Papua New Guinea,-5.833333,143.45
 NKO,,,Madagascar,-16.583332,-44.45
 NKS,,,Cameroon,4.95,9.933333
+NKU,,,Lesotho,-29.5,28.0
 NKV,Prince of Wales-Hyder,Alaska,US,55.85,-133.21666
 NKX,San Diego,California,US,32.86667,-117.11667
 NKY,,,Congo (Brazzaville),-4.216667,13.3
@@ -5373,10 +5386,10 @@ NQA,Shelby,Tennessee,US,35.13333,-90.05
 NQI,Kleberg,Texas,US,27.516666,-97.86667
 NQL,,,Brazil,-14.0,-48.983334
 NQN,,,Argentina,-38.95,-68.15222
-NQT,,Isle of Man,United Kingdom,52.966667,-1.166667
+NQT,,,United Kingdom,52.966667,-1.166667
 NQU,,,Colombia,5.7,-77.28333
 NQX,Monroe,Florida,US,24.55,-81.8
-NQY,,Channel Islands,United Kingdom,50.43745,-4.997922
+NQY,,,United Kingdom,50.43745,-4.997922
 NRA,,Australian Capital Territory,Australia,-34.705643,146.5117
 NRB,Duval,Florida,US,30.333332,-81.65
 NRD,,,Germany,53.833332,7.166667
@@ -5453,8 +5466,9 @@ NVR,,,Russia,58.516666,31.3
 NVS,,,France,47.0,3.15
 NVT,,,Brazil,-26.866667,-48.63333
 NVY,,,India,11.6,79.433334
+NWA,,,Comoros,-12.283333,43.766666
 NWH,Sullivan,New Hampshire,US,43.36667,-72.166664
-NWI,,Isle of Man,United Kingdom,52.669533,1.276782
+NWI,,,United Kingdom,52.669533,1.276782
 NWP,,Newfoundland and Labrador,Canada,47.3,-53.966667
 NWS,Hudson,New Jersey,US,40.703056,-74.01056
 NWT,,,Papua New Guinea,-9.983333,149.73334
@@ -5519,7 +5533,7 @@ ODB,,,Spain,37.84111,-4.847222
 ODC,Stanislaus,California,US,37.75691,-120.79951
 ODD,,South Australia,Australia,-27.550278,135.45
 ODE,,,Denmark,55.47639,10.328611
-ODH,,Channel Islands,United Kingdom,51.25,-0.95
+ODH,,,United Kingdom,51.25,-0.95
 ODJ,,,Central African Republic,8.916667,22.883333
 ODL,,South Australia,Australia,-26.716667,140.63333
 ODN,,,Malaysia,4.033333,115.066666
@@ -5573,7 +5587,7 @@ OKC,Oklahoma,Oklahoma,US,35.39563,-97.59609
 OKD,,,Japan,43.110374,141.382
 OKE,,,Japan,27.431667,128.70555
 OKG,,,Congo (Brazzaville),-1.466667,15.0
-OKH,,Isle of Man,United Kingdom,52.666668,-0.716667
+OKH,,,United Kingdom,52.666668,-0.716667
 OKI,,,Japan,36.166668,133.31667
 OKJ,,,Japan,34.76022,133.85277
 OKK,Howard,Indiana,US,40.52972,-86.05806
@@ -5665,7 +5679,7 @@ ORI,Kodiak Island,Alaska,US,57.886112,-152.84389
 ORJ,,,Guyana,4.716667,-60.033333
 ORK,,,Ireland,51.846645,-8.48914
 ORL,Orange,Florida,US,28.544167,-81.335556
-ORM,,Isle of Man,United Kingdom,52.233334,-0.9
+ORM,,,United Kingdom,52.233334,-0.9
 ORN,,,Algeria,35.620018,-0.606108
 ORO,,,Honduras,15.125278,-87.13389
 ORP,,,Botswana,-21.0,24.5
@@ -5748,7 +5762,7 @@ OWK,Kennebec,Maine,US,44.716667,-69.8
 OXB,,,Guinea-Bissau,11.888889,-15.657222
 OXC,New Haven,Connecticut,US,41.479168,-73.13639
 OXD,Preble,Ohio,US,39.86028,-84.76111
-OXF,,Channel Islands,United Kingdom,51.766666,-1.25
+OXF,,,United Kingdom,51.766666,-1.25
 OXO,,South Australia,Australia,-27.666668,141.33333
 OXR,Ventura,California,US,34.20111,-119.20639
 OXY,,South Australia,Australia,-25.35,141.36667
@@ -5872,6 +5886,7 @@ PEH,,,Argentina,-35.85,-61.86667
 PEI,,,Colombia,4.815945,-75.736534
 PEJ,,,Italy,41.701668,15.730556
 PEK,,Beijing,China,40.078537,116.5871
+PEL,,,Lesotho,-30.55,27.916668
 PEM,,,Peru,-12.583333,-69.23333
 PEN,,,Malaysia,5.292961,100.265175
 PEP,,Northern Territory,Australia,-14.15,130.1
@@ -6018,7 +6033,7 @@ PMA,,,Tanzania,-5.242222,39.801945
 PMB,Cavalier,North Dakota,US,49.0,-98.083336
 PMC,,,Chile,-41.433727,-73.09831
 PMD,Los Angeles,California,US,34.6275,-118.083336
-PME,,Channel Islands,United Kingdom,50.8,-1.083333
+PME,,,United Kingdom,50.8,-1.083333
 PMF,,,Italy,44.8,10.333333
 PMG,,,Brazil,-22.55,-55.7
 PMH,Scioto,Ohio,US,38.75,-82.98333
@@ -6284,13 +6299,13 @@ QBO,,,Germany,51.48165,7.21648
 QCA,,,Saudi Arabia,0.0,0.0
 QCE,Aroostook,Maine,US,49.3,-1.5
 QCU,,Greenland,Denmark,68.75,-52.333332
-QCY,,Isle of Man,United Kingdom,53.10598,-0.17595
+QCY,,,United Kingdom,53.10598,-0.17595
 QDH,,Gibraltar,United Kingdom,0.0,0.0
 QDI,,,Austria,47.36081,9.68671
 QDK,,Guam,US,30.055555,70.50278
 QDU,,,Germany,51.2249429,6.7756524
 QEQ,,,Switzerland,69.25,-53.566666
-QEW,,Isle of Man,United Kingdom,52.6386,-1.13169
+QEW,,,United Kingdom,52.6386,-1.13169
 QFB,,,Germany,0.0,0.0
 QFH,,,Denmark,57.44073,10.53661
 QFI,,Greenland,Denmark,68.166664,-53.25
@@ -6338,17 +6353,17 @@ QPL,,,Romania,0.0,0.0
 QPP,,,Germany,52.5234051,13.4113999
 QPV,,Western Australia,Australia,0.0,0.0
 QPW,,Greenland,Denmark,68.25,-53.5
-QQD,,Channel Islands,United Kingdom,51.13333,1.3
-QQH,,Channel Islands,United Kingdom,51.94194,1.28437
-QQK,,Channel Islands,United Kingdom,51.51,0.06
+QQD,,,United Kingdom,51.13333,1.3
+QQH,,,United Kingdom,51.94194,1.28437
+QQK,,,United Kingdom,51.51,0.06
 QQM,,Gibraltar,United Kingdom,-1.0,-1.0
-QQN,,Isle of Man,United Kingdom,52.4829614,-1.893592
+QQN,,,United Kingdom,52.4829614,-1.893592
 QQP,,Gibraltar,United Kingdom,-1.0,-1.0
-QQR,,Channel Islands,United Kingdom,51.33576,1.41552
-QQS,,Channel Islands,United Kingdom,51.51,0.06
-QQU,,Channel Islands,United Kingdom,51.51,0.06
-QQW,,Channel Islands,United Kingdom,51.51,0.06
-QQX,,Channel Islands,United Kingdom,51.37795,-2.35907
+QQR,,,United Kingdom,51.33576,1.41552
+QQS,,,United Kingdom,51.51,0.06
+QQU,,,United Kingdom,51.51,0.06
+QQW,,,United Kingdom,51.51,0.06
+QQX,,,United Kingdom,51.37795,-2.35907
 QQY,,,United Kingdom,53.95763,-1.08271
 QRA,,,South Africa,-26.140278,28.242779
 QRH,,,Netherlands,51.916668,4.5
@@ -6362,7 +6377,7 @@ QSG,,,Denmark,54.913811,9.792178
 QSR,,,Italy,40.620148,14.92084
 QTH,,Western Australia,Australia,0.0,0.0
 QUB,,,Libya,26.6,12.766667
-QUG,,Channel Islands,United Kingdom,50.941666,-0.842248
+QUG,,,United Kingdom,50.941666,-0.842248
 QUL,,,Germany,0.0,0.0
 QUO,,,Nigeria,4.876463,8.085693
 QUP,,Greenland,Denmark,70.05,-52.0
@@ -6462,7 +6477,7 @@ RCO,,,France,45.890556,-0.980556
 RCP,Lake and Peninsula,Alaska,US,57.083057,-157.80556
 RCQ,,,Argentina,-29.183332,-59.7
 RCR,Fulton,Indiana,US,41.066666,-86.21667
-RCS,,Channel Islands,United Kingdom,51.35,0.5
+RCS,,,United Kingdom,51.35,0.5
 RCT,Osceola,Michigan,US,43.88333,-85.51667
 RCU,,,Argentina,-33.165558,-64.331665
 RCY,,,Bahamas,23.666668,-74.96667
@@ -6831,7 +6846,7 @@ SEG,Northumberland,Pennsylvania,US,40.85,-76.85
 SEH,,,Indonesia,-3.433333,140.81667
 SEI,,,Brazil,-10.45,-40.183334
 SEM,Dallas,Alabama,US,32.226112,-87.08722
-SEN,,Channel Islands,United Kingdom,51.572777,0.701389
+SEN,,,United Kingdom,51.572777,0.701389
 SEO,,,Cote d'Ivoire,7.966667,-6.666667
 SEP,Erath,Texas,US,32.216667,-98.2
 SEQ,,,Indonesia,-0.8,114.066666
@@ -6901,6 +6916,7 @@ SHG,Northwest Arctic,Alaska,US,66.889725,-157.15778
 SHH,Nome,Alaska,US,66.25694,-166.05833
 SHI,,,Japan,24.816668,125.15
 SHJ,,,United Arab Emirates,25.320873,55.52029
+SHK,,,Lesotho,-29.475,27.833332
 SHL,,,India,25.566668,91.88333
 SHM,,,Japan,33.66139,135.35806
 SHN,Mason,Washington,US,47.23389,-123.138885
@@ -6915,6 +6931,7 @@ SHV,Caddo,Louisiana,US,32.45471,-93.828384
 SHW,,,Saudi Arabia,17.46946,47.111984
 SHX,Bethel,Alaska,US,62.69583,-159.56667
 SHY,,,Tanzania,-3.608185,33.504486
+SHZ,,,Lesotho,-29.166668,28.0
 SIB,,,Congo (Brazzaville),-3.733333,13.4
 SIC,,,Panama,42.0175,35.06889
 SID,,,Cabo Verde,16.734695,-22.943613
@@ -6979,6 +6996,7 @@ SKM,,,Guyana,5.877778,-57.175
 SKN,,,Norway,68.57915,15.032921
 SKO,,,Nigeria,13.006389,5.242222
 SKP,,,North Macedonia,41.95649,21.62872
+SKQ,,,Lesotho,-29.65,28.166668
 SKR,,,Ethiopia,5.883333,38.966667
 SKS,,,Denmark,55.221943,9.264722
 SKT,,,Pakistan,32.533333,74.5
@@ -7074,6 +7092,7 @@ SOG,,,Norway,61.158127,7.136988
 SOH,,,Colombia,9.2,-71.76667
 SOI,,Queensland,Australia,-20.75,148.58333
 SOJ,,,Norway,69.78333,20.933332
+SOK,,,Lesotho,-29.833332,28.5
 SOL,Nome,Alaska,US,64.56084,-164.44028
 SOM,,,Venezuela,8.949167,-64.145836
 SOO,,,Sweden,61.3,17.05
@@ -7081,7 +7100,7 @@ SOP,Moore,North Carolina,US,35.23761,-79.388794
 SOQ,,,Indonesia,-0.890214,131.29059
 SOR,,,Syria,34.4,40.166668
 SOT,,,Finland,67.38333,26.616667
-SOU,,Channel Islands,United Kingdom,50.950726,-1.361318
+SOU,,,United Kingdom,50.950726,-1.361318
 SOV,Kenai Peninsula,Alaska,US,59.4425,-151.70416
 SOW,Gila,Arizona,US,34.264442,-110.004166
 SOX,,,Colombia,5.716667,-72.933334
@@ -7132,7 +7151,7 @@ SQV,Jefferson,Washington,US,48.09778,-123.18528
 SQW,,,Denmark,56.566666,9.033333
 SQX,,,Brazil,-26.780556,-53.502777
 SQY,,,Brazil,-31.382778,-52.032223
-SQZ,,Isle of Man,United Kingdom,53.3,-0.583333
+SQZ,,,United Kingdom,53.3,-0.583333
 SRA,,,Brazil,-27.866667,-54.483334
 SRB,,,Bolivia,-10.6,-67.333336
 SRC,White,Arkansas,US,35.25,-91.73333
@@ -7191,7 +7210,7 @@ STJ,Andrew,Missouri,US,39.960556,-94.925
 STK,Logan,Colorado,US,40.61611,-103.26722
 STL,St. Louis,Missouri,US,38.74228,-90.36587
 STM,,,Brazil,-2.424886,-54.78639
-STN,,Channel Islands,United Kingdom,51.889267,0.262703
+STN,,,United Kingdom,51.889267,0.262703
 STP,Ramsey,Minnesota,US,44.933334,-93.066666
 STQ,Elk,Pennsylvania,US,41.433334,-78.566666
 STR,,,Germany,48.69073,9.193624
@@ -7264,7 +7283,7 @@ SWN,,,Pakistan,30.75,73.13333
 SWO,Payne,Oklahoma,US,36.15889,-97.085556
 SWQ,,,Indonesia,-8.5,117.416664
 SWR,,,Papua New Guinea,-4.533333,153.05
-SWS,,Channel Islands,United Kingdom,51.63333,-3.95
+SWS,,,United Kingdom,51.63333,-3.95
 SWT,,,Russia,60.5,77.0
 SWU,,,"Korea, South",37.283333,127.01667
 SWV,,,Pakistan,27.95,68.63333
@@ -7479,6 +7498,7 @@ TGU,,,Honduras,14.060123,-87.21972
 TGV,,,Bulgaria,42.416668,24.5
 TGZ,,,Mexico,16.56361,-93.0225
 THA,Coffee,Tennessee,US,35.36667,-86.183334
+THB,,,Lesotho,-28.833332,29.5
 THC,,,Liberia,6.066667,-8.133333
 THE,,,Brazil,-5.06335,-42.821087
 THG,,Queensland,Australia,-24.5,150.56667
@@ -7535,6 +7555,7 @@ TJM,,,Russia,57.181828,65.35024
 TJN,,French Polynesia,France,-15.850556,-142.26694
 TJQ,,,Indonesia,-2.75,107.65
 TJS,,,Indonesia,2.85,117.36667
+TJU,,,Tajikistan,37.988335,69.80666
 TJV,,,India,10.8,79.2
 TKA,Matanuska-Susitna,Alaska,US,62.322224,-150.09
 TKB,,,Papua New Guinea,-7.666667,146.55
@@ -7549,6 +7570,7 @@ TKJ,Southeast Fairbanks,Alaska,US,63.3,-143.0
 TKL,Juneau,Alaska,US,58.0,-134.0
 TKM,,,Guatemala,17.226389,-89.605
 TKN,,,Japan,27.833332,128.88333
+TKO,,,Lesotho,-29.233334,28.883333
 TKP,,French Polynesia,France,-15.45,-145.14166
 TKQ,,,Tanzania,-4.885,29.67
 TKR,,,Bangladesh,26.016666,88.4
@@ -7716,7 +7738,7 @@ TSJ,,,Japan,34.28615,129.32637
 TSL,,,Mexico,21.983334,-98.75
 TSM,Taos,New Mexico,US,36.459167,-105.67528
 TSN,,Tianjin,China,39.122627,117.3399
-TSO,,Channel Islands,United Kingdom,49.945557,-6.331389
+TSO,,,United Kingdom,49.945557,-6.331389
 TSP,Kern,California,US,35.1375,-118.441666
 TSQ,,,Brazil,-29.3325,-49.746113
 TSR,,,Romania,45.809925,21.32012
@@ -7736,7 +7758,7 @@ TTG,,,Argentina,-22.533333,-63.833332
 TTH,,,Oman,17.633333,54.0
 TTI,,French Polynesia,France,-17.083332,-149.5
 TTJ,,,Japan,35.525913,134.16756
-TTK,,Channel Islands,United Kingdom,51.583332,-0.083333
+TTK,,,United Kingdom,51.583332,-0.083333
 TTL,,,Fiji,-16.833332,179.0
 TTM,,,Colombia,5.716667,-72.1
 TTN,Mercer,New Jersey,US,40.278057,-74.8125
@@ -7928,6 +7950,7 @@ UMY,,,Ukraine,50.933334,34.783333
 UNA,,,Brazil,-15.353333,-38.997223
 UNC,,,Colombia,8.033333,-77.083336
 UND,,,Afghanistan,36.660557,68.909164
+UNE,,,Lesotho,-30.166668,27.166668
 UNG,,,Papua New Guinea,-6.125552,141.28601
 UNI,,,Saint Vincent and the Grenadines,13.5,-61.0
 UNK,Nome,Alaska,US,63.881927,-160.79944
@@ -7947,7 +7970,7 @@ UPL,,,Costa Rica,10.783333,-85.03333
 UPN,,,Mexico,19.411112,-102.04722
 UPP,Hawaii,Hawaii,US,20.268057,-155.8625
 UPR,,,Papua New Guinea,-8.533333,142.63333
-UPV,,Channel Islands,United Kingdom,51.3,-1.816667
+UPV,,,United Kingdom,51.3,-1.816667
 UQE,Bristol Bay,Alaska,US,58.876667,-158.43167
 URA,,,Kazakhstan,51.15371,51.538563
 URC,,Xinjiang,China,43.90126,87.47515
@@ -7978,6 +8001,7 @@ USU,,,Philippines,12.1,120.166664
 UTA,,,Zimbabwe,-18.966667,32.666668
 UTB,,Queensland,Australia,-22.5875,144.525
 UTD,,Northern Territory,Australia,-15.816667,134.16667
+UTG,,,Lesotho,-30.5,27.6
 UTH,,,Thailand,17.38661,102.774506
 UTI,,,Finland,60.9,26.933332
 UTL,,,Spain,36.63333,-4.5
@@ -8119,7 +8143,7 @@ VLP,,,Brazil,-10.015556,-51.122223
 VLR,,,Chile,-28.591667,-70.761665
 VLU,,,Russia,56.38333,30.616667
 VLV,,,Venezuela,9.339167,-70.58583
-VLY,,Isle of Man,United Kingdom,53.25036,-4.529017
+VLY,,,United Kingdom,53.25036,-4.529017
 VME,,,Argentina,-33.63333,-65.416664
 VMI,,,Paraguay,-22.25,-58.0
 VMU,,,Papua New Guinea,-7.5,144.8
@@ -8255,7 +8279,7 @@ WEP,,,Papua New Guinea,-10.066667,148.16667
 WET,,,Indonesia,-4.166667,135.83333
 WEW,,New South Wales,Australia,-30.233334,149.43333
 WFB,Ketchikan Gateway,Alaska,US,55.358055,-131.66833
-WFD,,Isle of Man,United Kingdom,53.338055,-2.148889
+WFD,,,United Kingdom,53.338055,-2.148889
 WFI,,,Madagascar,-21.466667,47.083332
 WFK,Aroostook,Maine,US,47.35,-68.333336
 WGA,,Australian Capital Territory,Australia,-35.15992,147.46626
@@ -8387,7 +8411,7 @@ WTC,Hudson,New Jersey,US,40.7,-74.01667
 WTD,,,Bahamas,26.686111,-78.97583
 WTK,Northwest Arctic,Alaska,US,67.56306,-162.98416
 WTL,Bethel,Alaska,US,60.35,-162.63333
-WTN,,Isle of Man,United Kingdom,53.166668,-0.516667
+WTN,,,United Kingdom,53.166668,-0.516667
 WTP,,,Papua New Guinea,-8.55,147.25
 WTR,Gila,Arizona,US,33.85,-109.96667
 WTS,,,Madagascar,-18.757221,46.054443
@@ -8529,7 +8553,7 @@ XGI,,,Norway,0.0,0.0
 XGJ,,New Brunswick,Canada,43.95977,-78.16515
 XGK,,Diamond Princess,Canada,0.0,0.0
 XGL,,Manitoba,Canada,56.233334,-100.55
-XGM,,Isle of Man,United Kingdom,52.91149,-0.64184
+XGM,,,United Kingdom,52.91149,-0.64184
 XGN,,,Angola,-16.75,14.972222
 XGP,,,Norway,0.0,0.0
 XGQ,,,Finland,68.41961,27.41475
@@ -8557,7 +8581,7 @@ XHP,,,France,48.856614,2.3522219
 XHQ,,,Turkey,41.18222,41.81944
 XHS,,Diamond Princess,Canada,0.0,0.0
 XHT,,,Norway,0.0,0.0
-XHU,,Isle of Man,United Kingdom,52.33049,-0.18651
+XHU,,,United Kingdom,52.33049,-0.18651
 XHV,,,Romania,0.0,0.0
 XHW,,Northern Territory,Australia,-23.7002104,133.8806114
 XHX,,South Australia,Australia,-34.9286212,138.5999594
@@ -8655,27 +8679,27 @@ XMN,,Fujian,China,24.536882,118.1275
 XMP,,Yukon,Canada,62.86667,-135.91667
 XMS,,,Ecuador,-2.316667,-78.13333
 XMY,,Northern Territory,Australia,-10.483333,142.45
-XMZ,,Isle of Man,United Kingdom,53.26023,-2.12564
+XMZ,,,United Kingdom,53.26023,-2.12564
 XNA,Benton,Arkansas,US,36.275257,-94.29711
 XNB,,,United Arab Emirates,25.2644444,55.3116667
 XNC,,,Italy,45.463681,9.1881714
 XND,,,Norway,59.74389,10.20449
 XNE,,Gibraltar,United Kingdom,0.0,0.0
 XNG,,,Vietnam,15.113611,108.77583
-XNM,,Isle of Man,United Kingdom,52.9551147,-1.1491718
+XNM,,,United Kingdom,52.9551147,-1.1491718
 XNN,,Gansu,China,36.525322,102.03754
 XNO,,,United Kingdom,54.33901,-1.43243
 XNR,,,Denmark,55.04434,9.41741
 XNT,,Shanxi,China,37.1,114.5
 XNU,,,Burkina Faso,12.733333,-3.866667
-XNV,,Isle of Man,United Kingdom,52.52323,-1.46523
+XNV,,,United Kingdom,52.52323,-1.46523
 XNY,New York,New York,US,40.76,-74.003
 XNZ,,,New Zealand,-36.8484597,174.7633315
 XOA,,,Denmark,0.0,0.0
 XOB,,,Norway,58.73536,5.64766
 XOC,,,Spain,40.4166909,-3.7003454
 XOD,,,Norway,0.0,0.0
-XOF,,Channel Islands,United Kingdom,51.51,0.06
+XOF,,,United Kingdom,51.51,0.06
 XOH,,,Austria,0.0,0.0
 XOI,,,Austria,47.01257,10.29179
 XOJ,,,Spain,37.8847267,-4.7791517
@@ -8705,37 +8729,37 @@ XPQ,,,Malaysia,0.0,0.0
 XPR,Oglala Lakota,South Dakota,US,43.016666,-102.51667
 XPT,,Gibraltar,United Kingdom,0.0,0.0
 XPU,North Slope,Alaska,US,70.333336,-149.33333
-XPW,,Channel Islands,United Kingdom,51.60928,-1.24214
+XPW,,,United Kingdom,51.60928,-1.24214
 XPX,,New Brunswick,Canada,45.65008,-73.49917
 XPY,,,Finland,0.0,0.0
 XPZ,,,France,43.283333,6.633333
 XQA,,,Spain,37.38264,-5.9962951
-XQB,,Channel Islands,United Kingdom,51.26249,-1.08708
-XQD,,Channel Islands,United Kingdom,52.13459,-0.46632
-XQE,,Channel Islands,United Kingdom,51.51,0.06
+XQB,,,United Kingdom,51.26249,-1.08708
+XQD,,,United Kingdom,52.13459,-0.46632
+XQE,,,United Kingdom,51.51,0.06
 XQG,,Gibraltar,United Kingdom,0.0,0.0
-XQH,,Isle of Man,United Kingdom,52.92277,-1.47663
-XQI,,Isle of Man,United Kingdom,52.76667,-1.2
-XQL,,Isle of Man,United Kingdom,54.06667,-2.83333
-XQM,,Isle of Man,United Kingdom,52.4776,-0.92053
+XQH,,,United Kingdom,52.92277,-1.47663
+XQI,,,United Kingdom,52.76667,-1.2
+XQL,,,United Kingdom,54.06667,-2.83333
+XQM,,,United Kingdom,52.4776,-0.92053
 XQN,,Queensland,Australia,-27.4709331,153.0235024
 XQP,,,Costa Rica,9.439146,-84.13335
 XQS,,,Finland,64.13333,28.41667
-XQT,,Isle of Man,United Kingdom,52.68154,-1.82549
+XQT,,,United Kingdom,52.68154,-1.82549
 XQU,,British Columbia,Canada,49.340153,-124.39587
 XQW,,,United Kingdom,55.78924,-3.99187
 XRA,,,Denmark,0.0,0.0
-XRC,,Isle of Man,United Kingdom,53.34174,-2.73124
+XRC,,,United Kingdom,53.34174,-2.73124
 XRD,,,Norway,58.45133,5.9997
-XRE,,Channel Islands,United Kingdom,51.45625,-0.97113
+XRE,,,United Kingdom,51.45625,-0.97113
 XRF,,,France,43.296482,5.36978
-XRG,,Isle of Man,United Kingdom,52.7593,-1.93694
+XRG,,,United Kingdom,52.7593,-1.93694
 XRH,,New South Wales,Australia,-33.6,150.76889
 XRJ,,,Italy,41.8905198,12.4942486
 XRK,,,Russia,55.755786,37.617633
 XRP,,Diamond Princess,Canada,0.0,0.0
 XRR,,Yukon,Canada,61.983334,-132.45
-XRU,,Isle of Man,United Kingdom,52.37092,-1.26417
+XRU,,,United Kingdom,52.37092,-1.26417
 XRY,,,Spain,36.750614,-6.064535
 XSC,,Turks and Caicos Islands,United Kingdom,21.515833,-71.529724
 XSD,Esmeralda,Nevada,US,38.033333,-117.23333
@@ -8745,7 +8769,7 @@ XSI,,Manitoba,Canada,56.8,-98.916664
 XSM,St. Mary's,Maryland,US,38.283333,-76.63333
 XSO,,,Philippines,7.7,122.15
 XSP,,,Singapore,1.366667,103.96667
-XSR,,Channel Islands,United Kingdom,51.06931,-1.79569
+XSR,,,United Kingdom,51.06931,-1.79569
 XTG,,South Australia,Australia,-27.966667,143.76666
 XTI,,,Spain,40.4166909,-3.7003454
 XTJ,,,Spain,39.8581,-4.02263
@@ -8778,39 +8802,39 @@ XUV,,,Norway,0.0,0.0
 XUW,,,Norway,0.0,0.0
 XUX,,,Norway,60.4983,8.04271
 XUZ,,Jiangsu,China,34.052925,117.55408
-XVA,,Isle of Man,United Kingdom,53.40979,-2.15761
-XVB,,Isle of Man,United Kingdom,52.80521,-2.11636
-XVC,,Isle of Man,United Kingdom,53.09787,-2.44161
+XVA,,,United Kingdom,53.40979,-2.15761
+XVB,,,United Kingdom,52.80521,-2.11636
+XVC,,,United Kingdom,53.09787,-2.44161
 XVG,,Bermuda,United Kingdom,47.05164,-94.24
-XVH,,Isle of Man,United Kingdom,52.57364,-0.24777
-XVJ,,Channel Islands,United Kingdom,51.90224,-0.20256
+XVH,,,United Kingdom,52.57364,-0.24777
+XVJ,,,United Kingdom,51.90224,-0.20256
 XVK,,,Norway,0.0,0.0
 XVL,,,Vietnam,10.25,105.95
 XVM,,,Finland,64.11667,28.25
 XVQ,,,Italy,45.4343363,12.3387844
 XVU,,,United Kingdom,54.51,-1.43
 XVV,,Diamond Princess,Canada,0.0,0.0
-XVW,,Isle of Man,United Kingdom,52.58547,-2.12296
+XVW,,,United Kingdom,52.58547,-2.12296
 XVX,,,Denmark,0.0,0.0
 XVY,,,Italy,45.4343363,12.3387844
 XWA,,Newfoundland and Labrador,Canada,48.838,3.015
 XWB,,,United Kingdom,56.11903,-3.93682
 XWC,,,Austria,48.2081743,16.3738189
-XWD,,Isle of Man,United Kingdom,53.68331,-1.49768
-XWE,,Isle of Man,United Kingdom,52.30273,-0.69446
+XWD,,,United Kingdom,53.68331,-1.49768
+XWE,,,United Kingdom,52.30273,-0.69446
 XWF,,,Sweden,60.4856047,15.4363017
 XWG,,,France,48.583148,7.747882
-XWH,,Isle of Man,United Kingdom,53.00415,-2.18538
-XWI,,Isle of Man,United Kingdom,53.53333,-2.61667
+XWH,,,United Kingdom,53.00415,-2.18538
+XWI,,,United Kingdom,53.53333,-2.61667
 XWK,,,Sweden,56.27,15.27
 XWL,,,Sweden,57.6969943,11.9865
 XWM,,,Sweden,59.0657,15.11174
 XWN,,Gibraltar,United Kingdom,0.0,0.0
-XWO,,Channel Islands,United Kingdom,51.31903,-0.55893
+XWO,,,United Kingdom,51.31903,-0.55893
 XWP,,,Sweden,56.2167,13.7333
 XWQ,,,Sweden,0.0,0.0
 XWR,,,Sweden,59.273755,15.2075395
-XWS,,Channel Islands,United Kingdom,51.9333,-2.1
+XWS,,,United Kingdom,51.9333,-2.1
 XWT,,,Austria,48.2081743,16.3738189
 XWV,,,Sweden,0.0,0.0
 XWW,,,Austria,48.2081743,16.3738189
@@ -8973,7 +8997,7 @@ YEK,,Manitoba,Canada,61.11667,-94.05
 YEL,,Ontario,Canada,46.352222,-82.56306
 YEM,,Ontario,Canada,45.842777,-81.858055
 YEN,,Saskatchewan,Canada,49.166668,-102.98333
-YEO,,Channel Islands,United Kingdom,51.016666,-2.55
+YEO,,,United Kingdom,51.016666,-2.55
 YEP,,British Columbia,Canada,49.38333,-126.53333
 YEQ,,,Papua New Guinea,-5.1,143.91667
 YER,,Ontario,Canada,56.033333,-87.833336
@@ -9283,6 +9307,7 @@ YUS,,Qinghai,China,32.8399,97.0379
 YUT,,Manitoba,Canada,66.53333,-86.25
 YUX,,Quebec,Canada,68.78333,-81.25
 YUY,,Ontario,Canada,48.205555,-78.83056
+YVA,,,Comoros,-11.531944,43.261112
 YVB,,New Brunswick,Canada,48.05,-65.48333
 YVC,,Saskatchewan,Canada,55.083332,-105.333336
 YVD,,,Papua New Guinea,-7.55,146.18889
@@ -9446,19 +9471,19 @@ ZEJ,,,Germany,51.5075,7.12283
 ZEL,,British Columbia,Canada,52.166668,-128.1
 ZEM,,Quebec,Canada,52.25,-78.51667
 ZEN,,,Papua New Guinea,-6.95,146.61667
-ZEP,,Channel Islands,United Kingdom,51.51,0.06
-ZEQ,,Isle of Man,United Kingdom,53.69076,-1.62907
+ZEP,,,United Kingdom,51.51,0.06
+ZEQ,,,United Kingdom,53.69076,-1.62907
 ZER,,,India,27.633333,93.833336
 ZEU,,,Germany,0.0,0.0
 ZEX,,,Germany,51.9049057,8.3927497
 ZEY,,,Germany,0.0,0.0
 ZFA,,Yukon,Canada,63.216667,-133.36667
 ZFB,,Newfoundland and Labrador,Canada,51.583332,-57.916668
-ZFC,,Isle of Man,United Kingdom,53.8371263,-1.4722292
+ZFC,,,United Kingdom,53.8371263,-1.4722292
 ZFD,,Saskatchewan,Canada,59.316666,-107.166664
-ZFG,,Isle of Man,United Kingdom,53.5230412,-1.1337622
+ZFG,,,United Kingdom,53.5230412,-1.1337622
 ZFH,,Gibraltar,United Kingdom,0.0,0.0
-ZFI,,Isle of Man,United Kingdom,53.25,-1.41667
+ZFI,,,United Kingdom,53.25,-1.41667
 ZFJ,,,France,48.113475,-1.675708
 ZFK,,,Denmark,0.0,0.0
 ZFL,,Manitoba,Canada,50.833332,-93.65
@@ -9596,13 +9621,13 @@ ZLN,,,France,48.00611,0.199556
 ZLO,,,Mexico,19.113333,-104.350555
 ZLP,,,Switzerland,47.367347,8.5500025
 ZLQ,,,Switzerland,47.367347,8.5500025
-ZLS,,Channel Islands,United Kingdom,51.51,0.06
+ZLS,,,United Kingdom,51.51,0.06
 ZLT,,Newfoundland and Labrador,Canada,50.828056,-58.97601
 ZLU,,,Germany,0.0,0.0
 ZLV,,,Finland,0.0,0.0
 ZLW,,,Malaysia,1.462,103.9053
 ZLZ,,,United Kingdom,37.568935,105.15253
-ZMA,,Isle of Man,United Kingdom,53.13333,-1.2
+ZMA,,,United Kingdom,53.13333,-1.2
 ZMB,,,Germany,53.553813,9.991586
 ZMC,,,Poland,48.13333,114.9
 ZMD,,,Brazil,-9.083333,-68.75
@@ -9615,7 +9640,7 @@ ZMK,,,Malaysia,0.0,0.0
 ZML,Milwaukee,Wisconsin,US,43.0387949,-87.9065334
 ZMM,,,Mexico,19.983334,-102.26667
 ZMO,,,Italy,44.64783,10.92539
-ZMP,,Isle of Man,United Kingdom,53.4807125,-2.2343765
+ZMP,,,United Kingdom,53.4807125,-2.2343765
 ZMQ,,,Norway,60.72638,10.61718
 ZMR,,,Italy,0.0,0.0
 ZMS,,,Italy,45.13128,110.17072
