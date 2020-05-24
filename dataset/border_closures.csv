@@ -1,0 +1,120 @@
+Province/State:Country/Region:ClosureDate:WhiteList:BlackList:Notes
+:Brunei:3/24/20:::
+:China:3/28/20:::
+Hong Kong:China:3/25/20:::
+:India:3/22/20:::
+:Indonesia:4/1/20:::
+:Israel:3/12/20:::
+:Jordan:3/17/20:::
+:Laos:5/3/20:::
+Macau:China:3/19/20:::
+:Malaysia:3/18/20:::
+:Myanmar:4/30/20:::
+:Nepal:4/30/20:::
+:Oman:3/15/20:::
+:Pakistan:3/21/20:::
+:Philippines:3/19/20:::
+:Qatar:3/15/20:::
+:Saudi Arabia:3/15/20:::
+:Singapore:3/23/20:::
+:Sri Lanka:4/8/20:::
+:Taiwan*:3/19/20:::
+:Thailand:3/26/20:::
+:Turkmenistan:3/20/20:::
+:United Arab Emirates:3/19/20:::
+:Vietnam:3/22/20:::
+:Algeria:4/17/20:::
+:Cape Verde:3/17/20:::
+:Congo (Brazzaville):3/24/20:::
+:Congo (Kinshasa):3/24/20:::
+:Egypt:3/19/20:::
+:Gambia:4/1/20:::
+:Ghana:3/17/20:::
+:Kenya:3/17/20:::
+:Madagascar:4/20/20:::
+:Mauritius:4/1/20:::
+:Namibia:4/23/20:::
+:Nigeria:3/26/20:::
+:Seychelles:3/30/20:::
+:South Africa:3/26/20:::
+:Sudan:3/17/20:::
+:Tunisia:4/19/20:::
+:Argentina:3/15/20:::
+:Belize:4/4/20:::
+:Bermuda:3/20/20:::
+:Bolivia:3/20/20:::
+:Brazil:3/30/20:::
+:Canada:3/18/20:::Did close to non-Americans on 3/16/20 but total closure on 3/18/20
+:Chile:4/4/20:::
+:Costa Rica:3/16/20:::
+:Colombia:3/17/20:::
+:Cuba:3/24/20:::
+:Dominica:3/26/20:::
+:Dominican Republic:4/20/20:::
+:Ecuador:3/25/20:::
+:El Salvador:3/11/20:::
+:Guatemala:3/16/20:::
+:Guyana:5/1/20:::
+:Honduras:3/15/20:::
+:Jamaica:3/18/20:::
+:Panama:3/16/20:::
+:Paraguay:4/26/20:::
+:Peru:3/17/20:::
+:Suriname:3/14/20:::
+:Trinidad and Tobago:3/17/20:::
+:Uruguay:4/1/20:::
+:Venezuela:4/10/20:::
+:Austria:3/17/20:::
+:Belgium:3/20/20:::
+:Croatia:3/19/20:::
+:Czech Republic:3/16/20:::
+:Cyprus:3/15/20:::
+:Denmark:3/14/20:::
+:Estonia:3/17/20:::
+:Finland:3/19/20:::
+:France:3/17/20:EU,Switzerland,United Kingdom::
+:France:4/6/20:::
+:Hungary:3/17/20:::
+:Italy:3/17/20:EU,Switzerland,United Kingdom::
+:Italy:3/28/20:::
+:Latvia:3/17/20:::
+:Lithuania:3/16/20:::
+:Malta:3/21/20:::
+:Norway:3/16/20:::
+:Poland:3/15/20:::
+:Romania:3/22/20:::
+:Slovakia:3/13/20:::
+:Spain:3/17/20:::
+:Switzerland:3/17/20:::
+:Azerbaijan:3/23/20:::
+:Armenia:4/17/20:::
+:Albania:3/22/20:::
+:Georgia:3/20/20:::
+Isle of Man:United Kingdom:3/25/20:::
+:Moldova:3/17/20:::
+:North Macedonia:3/17/20:::
+:Russia:3/18/20:::
+:Serbia:3/16/20:::
+:Turkey:3/28/20:::
+:Ukraine:3/15/20:::
+:Australia:3/20/20:::
+:Marshall Islands:5/5/20:::
+New Caledonia:France:4/1/20:::
+:New Zealand:3/19/20:::
+:Fiji:3/20/20:::
+:Tuvalu:3/26/20:::
+:Vanuatu:3/20/20:::
+:Bahrain:3/19/20::Austria,Belgium,China,Czechia,Denmark,Estonia,Finland,France,Germany,Greece,Hungary,Iceland,Iran,Iraq,South Korea,Latvia,Liechtenstein,Lithuania,Luxembourg,Malta,Netherlands,Norway,Poland,Portugal,Slovakia,Slovenia,Spain,Sweden,Switzerland,United Kingdom,United States:
+:Botswana:3/20/20::Austria,Belgium,China,Denmark,France,Germany,India,Iran,Italy,Japan,South Korea,Netherlands,Norway,Spain,Sweden,Switzerland,US,United Kingdom:
+:Cambodia:3/30/20:::
+:Gabon:3/16/20::Austria,Belgium,Bulgaria,China,Croatia,Cyprus,Czechia,Denmark,Estonia,Finland,France,Germany,Greece,Hungary,Italy,Ireland,Japan,South Korea,Latvia,Liechtenstein,Lithuania,Luxembourg,Malta,Netherlands,Norway,Poland,Portugal,Romania,Spain,Slovakia,Slovenia,Sweden,Switzerland,US,United Kingdom:
+:Germany:3/16/20::EU:
+:Greece:3/23/20:::They did an incremental ban but I cannot be bothered sorting through all of that mess and just said they did a total ban…
+:Japan:3/27/20:::
+:Portugal:3/16/20::Spain:
+:South Korea:4/13/20:::
+:Sweden:3/15/20:EU,Switzerland,United Kingdom::
+:US:2/2/20::China:
+:US:3/2/20::China,Iran:
+:US:3/13/20::China,Iran,EU:
+:US:3/14/20::China,Iran,EU,Ireland,United Kingdom:
