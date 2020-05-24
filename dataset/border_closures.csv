@@ -9,7 +9,7 @@ Hong Kong:China:3/25/20:::
 :Laos:5/3/20:::
 Macau:China:3/19/20:::
 :Malaysia:3/18/20:::
-:Myanmar:4/30/20:::
+:Burma:4/30/20:::
 :Nepal:4/30/20:::
 :Oman:3/15/20:::
 :Pakistan:3/21/20:::
@@ -41,7 +41,7 @@ Macau:China:3/19/20:::
 :Tunisia:4/19/20:::
 :Argentina:3/15/20:::
 :Belize:4/4/20:::
-:Bermuda:3/20/20:::
+Bermuda:United Kingdom:3/20/20:::
 :Bolivia:3/20/20:::
 :Brazil:3/30/20:::
 :Canada:3/18/20:::Did close to non-Americans on 3/16/20 but total closure on 3/18/20
@@ -67,15 +67,15 @@ Macau:China:3/19/20:::
 :Austria:3/17/20:::
 :Belgium:3/20/20:::
 :Croatia:3/19/20:::
-:Czech Republic:3/16/20:::
+:Czechia:3/16/20:::
 :Cyprus:3/15/20:::
 :Denmark:3/14/20:::
 :Estonia:3/17/20:::
 :Finland:3/19/20:::
-:France:3/17/20:EU,Switzerland,United Kingdom::
+:France:3/17/20:EU|Switzerland|United Kingdom::
 :France:4/6/20:::
 :Hungary:3/17/20:::
-:Italy:3/17/20:EU,Switzerland,United Kingdom::
+:Italy:3/17/20:EU|Switzerland|United Kingdom::
 :Italy:3/28/20:::
 :Latvia:3/17/20:::
 :Lithuania:3/16/20:::
@@ -104,17 +104,17 @@ New Caledonia:France:4/1/20:::
 :Fiji:3/20/20:::
 :Tuvalu:3/26/20:::
 :Vanuatu:3/20/20:::
-:Bahrain:3/19/20::Austria,Belgium,China,Czechia,Denmark,Estonia,Finland,France,Germany,Greece,Hungary,Iceland,Iran,Iraq,South Korea,Latvia,Liechtenstein,Lithuania,Luxembourg,Malta,Netherlands,Norway,Poland,Portugal,Slovakia,Slovenia,Spain,Sweden,Switzerland,United Kingdom,United States:
-:Botswana:3/20/20::Austria,Belgium,China,Denmark,France,Germany,India,Iran,Italy,Japan,South Korea,Netherlands,Norway,Spain,Sweden,Switzerland,US,United Kingdom:
+:Bahrain:3/19/20::Austria|Belgium|China|Czechia|Denmark|Estonia|Finland|France|Germany|Greece|Hungary|Iceland|Iran|Iraq|Korea, South|Latvia|Liechtenstein|Lithuania|Luxembourg|Malta|Netherlands|Norway|Poland|Portugal|Slovakia|Slovenia|Spain|Sweden|Switzerland|United Kingdom|US:
+:Botswana:3/20/20::Austria|Belgium|China|Denmark|France|Germany|India|Iran|Italy|Japan|Korea, South|Netherlands|Norway|Spain|Sweden|Switzerland|US|United Kingdom:
 :Cambodia:3/30/20:::
-:Gabon:3/16/20::Austria,Belgium,Bulgaria,China,Croatia,Cyprus,Czechia,Denmark,Estonia,Finland,France,Germany,Greece,Hungary,Italy,Ireland,Japan,South Korea,Latvia,Liechtenstein,Lithuania,Luxembourg,Malta,Netherlands,Norway,Poland,Portugal,Romania,Spain,Slovakia,Slovenia,Sweden,Switzerland,US,United Kingdom:
+:Gabon:3/16/20::Austria|Belgium|Bulgaria|China|Croatia|Cyprus|Czechia|Denmark|Estonia|Finland|France|Germany|Greece|Hungary|Italy|Ireland|Japan|Korea, South|Latvia|Liechtenstein|Lithuania|Luxembourg|Malta|Netherlands|Norway|Poland|Portugal|Romania|Spain|Slovakia|Slovenia|Sweden|Switzerland|US|United Kingdom:
 :Germany:3/16/20::EU:
 :Greece:3/23/20:::They did an incremental ban but I cannot be bothered sorting through all of that mess and just said they did a total ban…
 :Japan:3/27/20:::
 :Portugal:3/16/20::Spain:
-:South Korea:4/13/20:::
-:Sweden:3/15/20:EU,Switzerland,United Kingdom::
+:Korea, South:4/13/20:::
+:Sweden:3/15/20:EU|Switzerland|United Kingdom::
 :US:2/2/20::China:
-:US:3/2/20::China,Iran:
-:US:3/13/20::China,Iran,EU:
-:US:3/14/20::China,Iran,EU,Ireland,United Kingdom:
+:US:3/2/20::China|Iran:
+:US:3/13/20::China|Iran|EU:
+:US:3/14/20::China|Iran|EU|Ireland|United Kingdom:

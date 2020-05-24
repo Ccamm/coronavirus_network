@@ -1,11 +1,16 @@
 import os, subprocess
 import pandas as pd
 import numpy as np
+import json
 from datasetmanager import *
 
 class CovidData:
 
-    def __init__(self, routes_locations = 'dataset/airport_routes.csv', thread_num=20):
+    def __init__(self, routes_locations = 'dataset/airport_routes.csv',
+                 border_closures_csv='dataset/border_closures.csv',
+                 border_closures_json='dataset/border_closures.json',
+                 eu_countries_csv='dataset/eu_countries.csv',
+                 thread_num=20):
         """
         A wrapper class for organising all of the data for the COVID project.
 
@@ -17,6 +22,9 @@ class CovidData:
             thread_num:       the number of threads to use when running
                               download_route_dataset.py
         """
+        self.border_closures_csv = border_closures_csv
+        self.border_closures_json = border_closures_json
+        self.eu_countries_csv = eu_countries_csv
         covid_manager = CovidManager()
         datasets = covid_manager.getDatasets()
         self.confirmed_df = datasets['full']['confirmed']
@@ -30,6 +38,79 @@ class CovidData:
             subprocess.run(['python3', 'download_route_dataset.py', '-t', str(thread_num)], capture_output=True)
 
         self.routes_df = pd.read_csv(routes_locations)
+
+    def createBorderDataset(self):
+        border_closure_df = pd.read_csv(self.border_closures_csv, delimiter=':').fillna('none')
+        eu_countries_str = '|'.join(pd.read_csv(self.eu_countries_csv)['Country'].tolist())
+
+        def parse_border_list(list_str):
+            list_str = list_str.replace("EU", eu_countries_str)
+            return list_str.split("|")
+
+        border_closures = {
+            'country': {},
+            'state': {}
+        }
+
+
+        join_location_name = lambda state, country: '{}:{}'.format(state, country)
+
+        for _index, row in border_closure_df.iterrows():
+            if row['Province/State'] == 'none':
+                country_closures = border_closures['country'].get(row['Country/Region'], [])
+
+                closure_dict = {
+                    'date' : row['ClosureDate'],
+                    'whitelist' : [],
+                    'blacklist' : []
+                }
+                if not row['WhiteList'] == 'none':
+                    closure_dict['whitelist'] = parse_border_list(row["WhiteList"])
+
+                if not row['BlackList'] == 'none':
+                    closure_dict['blacklist'] = parse_border_list(row["BlackList"])
+
+                country_closures.append(closure_dict)
+
+                border_closures['country'][row['Country/Region']] = country_closures
+            else:
+                location_name = join_location_name(row['Province/State'], row['Country/Region'])
+                state_closures = border_closures['state'].get(location_name, [])
+
+                closure_dict = {
+                    'date' : row['ClosureDate'],
+                    'whitelist' : [],
+                    'blacklist' : []
+                }
+                if not row['WhiteList'] == 'none':
+                    closure_dict['whitelist'] = parse_border_list(row["WhiteList"])
+
+                if not row['BlackList'] == 'none':
+                    closure_dict['blacklist'] = parse_border_list(row["BlackList"])
+
+                state_closures.append(closure_dict)
+                border_closures['state'][location_name] = state_closures
+
+        for eu_country in eu_countries_str.split('|'):
+            if eu_country not in border_closures and not eu_country == "Ireland":
+                country_closures = border_closures['country'].get(eu_country, [])
+                closure_dict = {
+                    'date' : '3/17/20',
+                    'whitelist' : parse_border_list("EU"),
+                    'blacklist' : []
+                }
+                country_closures.append(closure_dict)
+                border_closures['country'][eu_country] = country_closures
+
+
+        with open(self.border_closures_json, 'w') as fp:
+            json.dump(border_closures, fp)
+
+    def loadBorderDataset(self):
+        with open(self.border_closures_json, 'r') as fp:
+            data = json.load(fp)
+        return data
+
 
     def routesToWeightedEdges(self, bin_region_column, country):
         """
