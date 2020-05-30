@@ -12,7 +12,7 @@ class CovidData:
                  eu_countries_csv='dataset/eu_countries.csv',
                  thread_num=20):
         """
-        A wrapper class for organising all of the data for the COVID project.
+        A wrapper class for organising all of the data for the COVID-19 project.
 
         parameters:
             routes_locations: the file location of the routes dataset mapping

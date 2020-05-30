@@ -3,7 +3,7 @@ import pandas as pd
 
 # SECURITY RISK IF WE PUBLICALLY POST REPO!
 # NEED TO CLEAR GITHUB COMMITS TOO SINCE IT WILL BE SAVED THERE AS WELL
-API_KEY = "e32a49-08933a"
+API_KEY = "NOT_AN_ACTUAL_API_KEY!"
 AIRPORT_DATASET = "dataset/airport_to_location.csv"
 ROUTES_DATASET = "dataset/airport_routes.csv"
 API_CALL = "http://aviation-edge.com/v2/public/routes?key={api_key}&departureIata={depart_codeIata}&limit=30000"
@@ -34,7 +34,7 @@ def parse_args():
     parser.add_argument("-k", "--api_key",
                         type=str,
                         help="the api key for the API calls to https://aviation-edge.com/",
-                        default="e32a49-08933a")
+                        default="NOT_AN_ACTUAL_API_KEY!")
     parser.add_argument("-a", "--airport_dataset",
                         type=str,
                         help="path to dataset mapping Iata codes to locations in the covid datasets.",
