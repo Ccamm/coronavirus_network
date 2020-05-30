@@ -6,9 +6,11 @@ This student project was developed during the unit [CITS4403 Computational Model
 ## Intallations
 
 Create the environment to run the notebook use:
+
 `conda env create -f environment.yml`
 
 If you already have the environment setup and need to install new packages while the environment is activated:
+
 `conda env update --file environment.yml`
 
 
@@ -35,3 +37,20 @@ We assume that most cases of the virus that spread into different countries was 
 ![Demo1](demos/demo1.gif)
 ![Demo2](demos/demo2.gif)
 ![Demo3](demos/demo3.gif)
+
+## Figures
+![Figures in figure file](figures/top50_max_percent_change_confirmed_countries.png)
+![Figures in figure file](figures/top50_max_percent_change_deaths_us_county.png)
+![Figures in figure file](figures/top50_max_percent_change_deaths_us_state.png)
+![Figures in figure file](figures/top20percent_map.png)
+![Figures in figure file](figures/country_possiblyinfected_confirmedcases.png)
+![Figures in figure file](figures/state_possiblyinfected_confirmedcases.png)
+![Figures in figure file](figures/statecountry_cluster_paths.png)
+![Figures in figure file](figures/statecountry_new_infections.png)
+![Figures in figure file](figures/incoming_routes_overtime_australia.png)
+![Figures in figure file](figures/australia_closeness_distribution_overtime.png)
+![Figures in figure file](figures/australia_degree_distribution_overtime.png)
+![Figures in figure file](figures/top20global_closeness.png)
+![Figures in figure file](figures/top20global_betweenness.png)
+
+
