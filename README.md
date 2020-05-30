@@ -12,6 +12,10 @@ If you already have the environment setup and need to install new packages while
 `conda env update --file environment.yml`
 
 
+## Jupyter Notebooks for Analysing COVID-19
+- coronavirus_infection_path.ipynb (Infection Graph Analysis)
+- coronavirus_timeline.ipynb (Analysing various attributes of Routes Network with COVID-19)
+
 ## Data
 * [COVID-19 Data Repository by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University](https://github.com/CSSEGISandData/COVID-19)
 * [Airport Locations and Flight Routes Dataset](https://aviation-edge.com/)
